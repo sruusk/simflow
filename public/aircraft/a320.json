@@ -147,15 +147,15 @@
     "value": [{
       "title": "SPEED",
       "value": "AS REQUIRED",
-      "img": "IMAGE"
+      "img": "/img/speed.webp"
     }, {
       "title": "HEADING",
       "value": "AS REQUIRED",
-      "img": "IMAGE"
+      "img": "/img/heading.webp"
     }, {
       "title": "ALTITUDE",
       "value": "INIT CLIMB",
-      "img": "IMAGE"
+      "img": "/img/altitude.webp"
     }
     ]
   }, {
@@ -858,7 +858,7 @@
     }, {
       "title": "OPEN DOORS",
       "value": "",
-      "img": "/img/door.webp"
+      "img": "/img/doors.webp"
     }
     ]
   }, {
