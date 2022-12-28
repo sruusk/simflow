@@ -88,12 +88,12 @@
         "value": [
           {
             "title": "APU Master",
-            "img": "/img/apu_master.webp",
+            "img": "img/apu_master.webp",
             "value": "ON"
           },
           {
             "title": "APU",
-            "img": "/img/apu_start.webp",
+            "img": "img/apu_start.webp",
             "value": "Start"
           }
         ]

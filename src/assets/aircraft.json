@@ -2,7 +2,7 @@
   {
     "manufacturer": "Boeing",
     "type": "737",
-    "image": "/img/boeing_737.webp",
+    "image": "img/boeing_737.webp",
     "tags": [
       {
         "text": "NEW",
@@ -19,7 +19,7 @@
   {
     "manufacturer": "Airbus",
     "type": "A320",
-    "image": "/img/airbus_a320.webp",
+    "image": "img/airbus_a320.webp",
     "tags": [
       {
         "text": "NEW",
