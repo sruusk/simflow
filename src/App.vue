@@ -5,7 +5,7 @@
   </header>
 
   <main class="flex-center flex-vertical" v-if="!selectedChecklist">
-    <div class="flex-center">
+    <div class="flex-center flex-wrap">
       <AircraftItem v-for="aircraftItem in aircraft" :key="aircraftItem" :aircraft="aircraftItem" @click="this.showChecklist(aircraftItem)"/>
     </div>
     <ContributeBox/>
@@ -68,6 +68,10 @@ export default {
 
   .flex-vertical {
     flex-direction: column;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
   }
 
   .round-container {
