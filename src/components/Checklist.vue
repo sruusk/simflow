@@ -57,7 +57,7 @@ h3{
 }
 .round-container{
   max-width: 433px;
-  width: 90%;
+  width: 85%;
   padding: 20px;
 }
 .checklist-item{

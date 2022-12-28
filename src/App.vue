@@ -24,16 +24,16 @@ import aircraftList from "@/assets/aircraft.json";
 
 export default {
   name: "App",
+  components: {
+    AircraftItem,
+    ContributeBox,
+    Checklist,
+  },
   data() {
     return {
       aircraft: aircraftList,
       selectedChecklist: null,
     }
-  },
-  components: {
-    AircraftItem,
-    ContributeBox,
-    Checklist,
   },
   methods: {
     showChecklist(aircraft) {

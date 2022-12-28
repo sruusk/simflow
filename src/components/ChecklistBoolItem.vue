@@ -12,11 +12,23 @@
 export default {
   name: "ChecklistBoolItem",
   props: {
-    item: Object
+    item: Object,
+    isTicked: Boolean
+  },
+  emits: ['update:isTicked'],
+  data() {
+    return {
+      checked: false
+    }
+  },
+  watch: {
+    checked: function() {
+      this.$emit('update:isTicked', this.checked)
+    }
   },
   methods: {
     toggleCheck(event) {
-      event.target.parentElement.querySelector(".check-icon").classList.toggle("checked");
+      this.checked = event.target.parentElement.querySelector(".check-icon").classList.toggle("checked");
     }
   }
 }
