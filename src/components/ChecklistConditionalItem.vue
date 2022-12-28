@@ -1,0 +1,64 @@
+<template>
+  <div class="main">
+    <h3>{{this.item.title}}</h3>
+    <div class="row" v-for="row in this.item.value" :key="row">
+      <div class="left">
+        <img :src="row.img" />
+        <p>{{row.title}}</p>
+      </div>
+      <div class="right">
+        <p>{{row.value}}</p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "ChecklistConditionalItem",
+  props: {
+    item: Object
+  },
+}
+</script>
+
+<style scoped>
+.main{
+  width: 100%;
+  margin: 5px 0 0 0;
+  padding: 0 0 5px 0;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  margin: 0;
+  color: #32e0c4;
+}
+p{
+  color: #717985;
+  margin: 0;
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.left img{
+  width: 30px;
+  height: 30px;
+  margin: 0 20px 0 0;
+}
+
+.left, .right{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+}
+</style>

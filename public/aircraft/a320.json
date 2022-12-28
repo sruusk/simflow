@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Pre-Flight",
+    "items": [
+      {
+        "title": "Parking Brake",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Weather Radar",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "Predictive Windshear",
+        "type": "bool",
+        "value": "Disarmed & Retracted"
+      },
+      {
+        "title": "Flaps",
+        "type": "bool",
+        "value": "Retracted"
+      },
+      {
+        "title": "Engine Mode Selector",
+        "type": "bool",
+        "value": "Normal"
+      },
+      {
+        "title": "Engine Master 1 + 2",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "Thrust Levers",
+        "type": "bool",
+        "value": "Idle"
+      },
+      {
+        "title": "Anti-Skid",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Landing Gear",
+        "type": "bool",
+        "value": "Down"
+      },
+      {
+        "title": "Wipers",
+        "type": "bool",
+        "value": "OFF"
+      }
+    ]
+  },
+  {
+    "title": "Cockpit Preparation",
+    "items": [
+      {
+        "title": "Battery 1 + 2",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "External Power",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Accu. Brakes Pressure",
+        "type": "bool",
+        "value": "Checked"
+      },
+      {
+        "title": "Cockpit & Instrument Lights",
+        "type": "bool",
+        "value": "As Req"
+      },
+      {
+        "title": "APU & Engine Fire Tests",
+        "type": "bool",
+        "value": "Perform"
+      },
+      {
+        "title": "If External Power Unavailable",
+        "type": "conditional",
+        "value": [
+          {
+            "title": "APU Master",
+            "img": "/img/apu_master.webp",
+            "value": "ON"
+          },
+          {
+            "title": "APU",
+            "img": "/img/apu_start.webp",
+            "value": "Start"
+          }
+        ]
+      },
+      {
+        "title": "Crew Sup,ply",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "ADIRS",
+        "type": "bool",
+        "value": "NAV"
+      }
+    ]
+  }
+]
