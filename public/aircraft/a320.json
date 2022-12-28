@@ -1,113 +1,871 @@
-[
-  {
-    "title": "Pre-Flight",
-    "items": [
-      {
-        "title": "Parking Brake",
-        "type": "bool",
-        "value": "ON"
-      },
-      {
-        "title": "Weather Radar",
-        "type": "bool",
-        "value": "OFF"
-      },
-      {
-        "title": "Predictive Windshear",
-        "type": "bool",
-        "value": "Disarmed & Retracted"
-      },
-      {
-        "title": "Flaps",
-        "type": "bool",
-        "value": "Retracted"
-      },
-      {
-        "title": "Engine Mode Selector",
-        "type": "bool",
-        "value": "Normal"
-      },
-      {
-        "title": "Engine Master 1 + 2",
-        "type": "bool",
-        "value": "OFF"
-      },
-      {
-        "title": "Thrust Levers",
-        "type": "bool",
-        "value": "Idle"
-      },
-      {
-        "title": "Anti-Skid",
-        "type": "bool",
-        "value": "ON"
-      },
-      {
-        "title": "Landing Gear",
-        "type": "bool",
-        "value": "Down"
-      },
-      {
-        "title": "Wipers",
-        "type": "bool",
-        "value": "OFF"
-      }
+[{
+  "title": "PRE-FLIGHT",
+  "items": [{
+    "title": "PARKING BRAKE",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "WEATHER RADAR",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "PREDICTIVE WINDSHEAR",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "SPOILERS",
+    "type": "bool",
+    "value": "DISARMED & RETRACTED"
+  }, {
+    "title": "FLAPS",
+    "type": "bool",
+    "value": "RETRACTED"
+  }, {
+    "title": "ENGINE MODE SELECTOR",
+    "type": "bool",
+    "value": "NORMAL"
+  }, {
+    "title": "ENGINE MASTER 1 + 2",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "THRUST LEVERS",
+    "type": "bool",
+    "value": "IDLE"
+  }, {
+    "title": "ANTI-SKID",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "LANDING GEAR",
+    "type": "bool",
+    "value": "DOWN"
+  }, {
+    "title": "WIPERS",
+    "type": "bool",
+    "value": "OFF"
+  }
+  ]
+}, {
+  "title": "COCKPIT PREPARATION",
+  "items": [{
+    "title": "BATTERY 1 + 2",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "EXTERNAL POWER",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "ACCU. BRAKES PRESSURE",
+    "type": "bool",
+    "value": "CHECKED"
+  }, {
+    "title": "COCKPIT & INSTRUMENT LIGHTS",
+    "type": "bool",
+    "value": "AS REQ."
+  }, {
+    "title": "APU & ENGINE FIRE TESTS",
+    "type": "bool",
+    "value": "PERFORM"
+  }, {
+    "title": "IF EXTERNAL POWER UNAVAILABLE:",
+    "type": "reminder",
+    "value": [{
+      "title": "APU MASTER",
+      "value": "ON",
+      "img": "/img/push_button.webp"
+    }, {
+      "title": "APU",
+      "value": "START",
+      "img": "/img/apu_start.webp"
+    }
     ]
-  },
-  {
-    "title": "Cockpit Preparation",
-    "items": [
-      {
-        "title": "Battery 1 + 2",
-        "type": "bool",
-        "value": "ON"
-      },
-      {
-        "title": "External Power",
-        "type": "bool",
-        "value": "ON"
-      },
-      {
-        "title": "Accu. Brakes Pressure",
-        "type": "bool",
-        "value": "Checked"
-      },
-      {
-        "title": "Cockpit & Instrument Lights",
-        "type": "bool",
-        "value": "As Req"
-      },
-      {
-        "title": "APU & Engine Fire Tests",
-        "type": "bool",
-        "value": "Perform"
-      },
-      {
-        "title": "If External Power Unavailable",
-        "type": "conditional",
-        "value": [
-          {
-            "title": "APU Master",
-            "img": "/img/push_button.webp",
-            "value": "ON"
-          },
-          {
-            "title": "APU",
-            "img": "/img/apu_start.webp",
-            "value": "Start"
-          }
-        ]
-      },
-      {
-        "title": "Crew Supply",
-        "type": "bool",
-        "value": "ON"
-      },
-      {
-        "title": "ADIRS",
-        "type": "bool",
-        "value": "NAV"
-      }
+  }, {
+    "title": "CREW SUPPLY",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "ADIRS",
+    "type": "bool",
+    "value": "NAV"
+  }, {
+    "title": "NAV & LOGO LIGHTS",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "NO SMOKING",
+    "type": "bool",
+    "value": "ON/AUTO"
+  }, {
+    "title": "EMERGENCY LIGHTS",
+    "type": "bool",
+    "value": "ARM"
+  }, {
+    "title": "ANNOUNCIATOR LIGHTS",
+    "type": "bool",
+    "value": "TEST"
+  }, {
+    "title": "PROBE & WINDOW HEAT",
+    "type": "bool",
+    "value": "AUTO"
+  }, {
+    "title": "ANTI-ICE",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "AIR CONDITION",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "ECAM PAGE",
+    "type": "bool",
+    "value": "ELEC"
+  }, {
+    "title": "BATTERY 1 + 2",
+    "type": "bool",
+    "value": "OFF THEN ON"
+  }, {
+    "title": "FUEL PUMPS",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "FLIGHT DIRECTORS",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "BARO",
+    "type": "bool",
+    "value": "SET QNH/INHG"
+  }, {
+    "title": "EFIS",
+    "type": "bool",
+    "value": "CSTR, ARC, 10NM"
+  }, {
+    "title": "FCU:",
+    "type": "reminder",
+    "value": [{
+      "title": "SPEED",
+      "value": "AS REQUIRED",
+      "img": "IMAGE"
+    }, {
+      "title": "HEADING",
+      "value": "AS REQUIRED",
+      "img": "IMAGE"
+    }, {
+      "title": "ALTITUDE",
+      "value": "INIT CLIMB",
+      "img": "IMAGE"
+    }
+    ]
+  }, {
+    "title": "FCU CHECKED",
+    "type": "bool",
+    "value": "CHECKED"
+  }, {
+    "title": "RADIO",
+    "type": "bool",
+    "value": "SETUP"
+  }, {
+    "title": "MCDU",
+    "type": "bool",
+    "value": "SETUP"
+  }, {
+    "title": "RADNAV",
+    "type": "bool",
+    "value": "SETUP"
+  }, {
+    "title": "IRS ALIGN",
+    "type": "bool",
+    "value": "CHECK"
+  }, {
+    "title": "CHECK:",
+    "type": "reminder",
+    "value": [{
+      "title": "OBTAIN IFR CLEARANCE",
+      "value": "",
+      "img": "/img/airport.webp"
+    }, {
+      "title": "FLIGHT PLAN REVIEWED",
+      "value": "",
+      "img": "/img/flight_plan.webp"
+    }, {
+      "title": "TAKE-OFF BRIEFING COMPLETE",
+      "value": "",
+      "img": "/img/briefing.webp"
+    }
+    ]
+  }, {
+    "title": "SQUAWK",
+    "type": "bool",
+    "value": "SET"
+  }
+  ]
+}, {
+  "title": "BEFORE START",
+  "items": [{
+    "title": "APU MASTER",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "APU",
+    "type": "bool",
+    "value": "START"
+  }, {
+    "title": "MCDU WEIGHTS",
+    "type": "bool",
+    "value": "INSERTED"
+  }, {
+    "title": "MCDU T/O PERFORMANCE",
+    "type": "bool",
+    "value": "CHECKED"
+  }, {
+    "title": "V-SPEEDS V1, VR, V2",
+    "type": "bool",
+    "value": "CHECKED"
+  }, {
+    "title": "IF APU AVAILABLE:",
+    "type": "reminder",
+    "value": [{
+      "title": "APU BLEED",
+      "value": "ON",
+      "img": "/img/apu_bleed.webp"
+    }, {
+      "title": "EXTERNAL POWER",
+      "value": "OFF",
+      "img": "/img/push_button.webp"
+    }
+    ]
+  }, {
+    "title": "SEATBELT SIGNS",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "FUEL PUMPS",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "BEACON",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "STEERING PIN",
+    "type": "bool",
+    "value": "INSERTED"
+  }, {
+    "title": "TRANSPONDER",
+    "type": "bool",
+    "value": "AUTO"
+  }, {
+    "title": "TCAS",
+    "type": "bool",
+    "value": "STANDBY"
+  }, {
+    "title": "CLOCK",
+    "type": "bool",
+    "value": "RUN"
+  }, {
+    "title": "PARKING BRAKE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "CHECK:",
+    "type": "reminder",
+    "value": [{
+      "title": "DOORS CLOSED",
+      "value": "",
+      "img": "/img/doors.webp"
+    }, {
+      "title": "GROUND EQUIPMENT CLEAR",
+      "value": "",
+      "img": "/img/stairs.webp"
+    }, {
+      "title": "REQUEST PUSHBACK CLEARANCE",
+      "value": "",
+      "img": "/img/push_back.webp"
+    }
     ]
   }
+  ]
+}, {
+  "title": "ENGINE START",
+  "items": [{
+    "title": "ENGINE MODE SELECTOR",
+    "type": "bool",
+    "value": "START"
+  }, {
+    "title": "ENGINE 2 START:",
+    "type": "reminder",
+    "value": [{
+      "title": "ENGINE 2 MASTER",
+      "value": "ON",
+      "img": "/img/engine_master.webp"
+    }
+    ]
+  }, {
+    "title": "ENGINE 2 STATUS",
+    "type": "bool",
+    "value": "STABLE"
+  }, {
+    "title": "ENGINE 1 START:",
+    "type": "reminder",
+    "value": [{
+      "title": "ENGINE 1 MASTER",
+      "value": "ON",
+      "img": "/img/engine_master.webp"
+    }
+    ]
+  }, {
+    "title": "ENGINE 1 STATUS",
+    "type": "bool",
+    "value": "STABLE"
+  }, {
+    "title": "ENGINE MODE SELECTOR",
+    "type": "bool",
+    "value": "NORMAL"
+  }, {
+    "title": "APU BLEED",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "APU MASTER",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "ANTI-ICE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }
+  ]
+}, {
+  "title": "BEFORE TAXI",
+  "items": [{
+    "title": "AUTOBRAKE",
+    "type": "bool",
+    "value": "MAX"
+  }, {
+    "title": "SPOILERS",
+    "type": "bool",
+    "value": "ARMED"
+  }, {
+    "title": "FLAPS",
+    "type": "bool",
+    "value": "T/O"
+  }, {
+    "title": "ENGINE ANTI-ICE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "FLIGHT CONTROLS",
+    "type": "bool",
+    "value": "CHECKED"
+  }, {
+    "title": "PITCH TRIM",
+    "type": "bool",
+    "value": "SET"
+  }, {
+    "title": "RUDDER TRIM",
+    "type": "bool",
+    "value": "RESET"
+  }, {
+    "title": "STEERING PIN",
+    "type": "bool",
+    "value": "REMOVED"
+  }, {
+    "title": "NOSEWHEEL LIGHT",
+    "type": "bool",
+    "value": "TAXI"
+  }, {
+    "title": "RUNWAY TURNOFF LIGHTS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "STROBES",
+    "type": "bool",
+    "value": "AUTO"
+  }, {
+    "title": "CHECK:",
+    "type": "reminder",
+    "value": [{
+      "title": "REQUEST TAXI CLEARANCE",
+      "value": "",
+      "img": "/img/airport.webp"
+    }, {
+      "title": "PREPARE TOWER FREQUENCY",
+      "value": "",
+      "img": "/img/control_tower.webp"
+    }
+    ]
+  }, {
+    "title": "TOWER FREQUENCY STANDBY",
+    "type": "bool",
+    "value": "SET"
+  }, {
+    "title": "PARKING BRAKE",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "T/O CONFIG",
+    "type": "bool",
+    "value": "CHECK"
+  }
+  ]
+}, {
+  "title": "BEFORE TAKE-OFF",
+  "items": [{
+    "title": "CABIN CREW",
+    "type": "bool",
+    "value": "NOTIFIED"
+  }, {
+    "title": "EXTERIOR LIGHTS",
+    "type": "bool",
+    "value": "ALL"
+  }, {
+    "title": "NOSEWHEEL LIGHTS",
+    "type": "bool",
+    "value": "T/O"
+  }, {
+    "title": "ANTI-ICE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "PACKS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "TCAS",
+    "type": "bool",
+    "value": "TA/RA"
+  }, {
+    "title": "WEATHER RADAR",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "PREDICTIVE WINDSHEAR",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "WEATHER MODE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "ECAM MEMO",
+    "type": "bool",
+    "value": "T/O NO BLUE"
+  }, {
+    "title": "AT THE HOLD",
+    "type": "reminder",
+    "value": [{
+      "title": "REQUEST TAKE-OFF CLEARANCE",
+      "value": "",
+      "img": "/img/airport.webp"
+    }, {
+      "title": "PREPARE DEPARTURE FREQUENCY",
+      "value": "",
+      "img": "/img/control_tower.webp"
+    }
+    ]
+  }, {
+    "title": "DEPARTURE FREQUENCY STANDBY",
+    "type": "bool",
+    "value": "SET"
+  }, {
+    "title": "CHRONO",
+    "type": "bool",
+    "value": "SET"
+  }
+  ]
+}, {
+  "title": "AFTER TAKE-OFF",
+  "items": [{
+    "title": "LANDING GEAR",
+    "type": "bool",
+    "value": "RETRACTED"
+  }, {
+    "title": "ENGINE MODE SELECTOR",
+    "type": "bool",
+    "value": "NORMAL"
+  }, {
+    "title": "SPOILERS",
+    "type": "bool",
+    "value": "DISARMED & RETRACTED"
+  }, {
+    "title": "THRUST",
+    "type": "bool",
+    "value": "CLIMB"
+  }, {
+    "title": "FLAPS",
+    "type": "bool",
+    "value": "RETRACTED"
+  }, {
+    "title": "PACKS",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "ANTI-ICE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "NOSEWHEEL LIGHTS",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "RUNWAY TURNOFF LIGHTS",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "CHECK:",
+    "type": "reminder",
+    "value": [{
+      "title": "PREPARE CENTER FREQUENCY",
+      "value": "",
+      "img": "/img/control_tower.webp"
+    }
+    ]
+  }, {
+    "title": "CENTER FREQUENCY STANDBY",
+    "type": "bool",
+    "value": "SET"
+  }
+  ]
+}, {
+  "title": "CLIMB",
+  "items": [{
+    "title": "PASSING TRANSITION ALTITUDE:",
+    "type": "reminder",
+    "value": [{
+      "title": "SET BARO TO STD - 29.92 / 1013",
+      "value": "",
+      "img": "/img/barometer.webp"
+    }
+    ]
+  }, {
+    "title": "ALTIMETER",
+    "type": "bool",
+    "value": "SET"
+  }, {
+    "title": "ANTI-ICE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "EFIS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "WEATHER RADAR",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "PASSING 10,000ft:",
+    "type": "reminder",
+    "value": []
+  }, {
+    "title": "LANDING LIGHTS",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "SEATBELT SIGNS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }
+  ]
+}, {
+  "title": "CRUISE",
+  "items": [{
+    "title": "NAV AIDS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "SEATBELT SIGNS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "CHECK:",
+    "type": "reminder",
+    "value": [{
+      "title": "PREPARE ARRIVAL & LANDING PERF.",
+      "value": "",
+      "img": "/img/arrival.webp"
+    }, {
+      "title": "ARRIVAL TAXI ROUTE BRIEFED",
+      "value": "",
+      "img": "/img/runway.webp"
+    }, {
+      "title": "PREPARE ARRIVAL FREQUENCY",
+      "value": "",
+      "img": "/img/control_tower.webp"
+    }
+    ]
+  }, {
+    "title": "ARRIVAL FREQUENCY STANDBY",
+    "type": "bool",
+    "value": "SET"
+  }
+  ]
+}, {
+  "title": "DESCENT",
+  "items": [{
+    "title": "MCDU LANDING PERF.",
+    "type": "bool",
+    "value": "REVIEWED"
+  }, {
+    "title": "TCAS",
+    "type": "bool",
+    "value": "BLW"
+  }, {
+    "title": "APPROACH BRIEFING",
+    "type": "bool",
+    "value": "COMPLETED"
+  }, {
+    "title": "NAV AIDS",
+    "type": "bool",
+    "value": "REVIEWED"
+  }, {
+    "title": "ANTI-ICE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "EFIS ND",
+    "type": "bool",
+    "value": "CSTR"
+  }, {
+    "title": "PASSING TRANSITION ALTITUDE:",
+    "type": "reminder",
+    "value": [{
+      "title": "SET LOCAL QNH/QFE",
+      "value": "",
+      "img": "/img/barometer.webp"
+    }
+    ]
+  }, {
+    "title": "ALTIMETER",
+    "type": "bool",
+    "value": "SET"
+  }, {
+    "title": "CHECK:",
+    "type": "reminder",
+    "value": [{
+      "title": "PREPARE TOWER FREQUENCY",
+      "value": "",
+      "img": "/img/control_tower.webp"
+    }
+    ]
+  }, {
+    "title": "TOWER FREQUENCY STANDBY",
+    "type": "bool",
+    "value": "SET"
+  }, {
+    "title": "PASSING 10,000ft",
+    "type": "reminder",
+    "value": []
+  }, {
+    "title": "SEATBELT SIGNS",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "LANDING LIGHTS",
+    "type": "bool",
+    "value": "ON"
+  }
+  ]
+}, {
+  "title": "BEFORE LANDING",
+  "items": [{
+    "title": "CABIN CREW",
+    "type": "bool",
+    "value": "NOTIFIED"
+  }, {
+    "title": "EFIS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "ND TERRAIN",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "LANDING GEAR",
+    "type": "bool",
+    "value": "DOWN & GREEN"
+  }, {
+    "title": "FLAPS",
+    "type": "bool",
+    "value": "SET"
+  }, {
+    "title": "SPOILERS",
+    "type": "bool",
+    "value": "ARMED"
+  }, {
+    "title": "AUTO BRAKES",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "ENGINE SELECTOR MODE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "NOSEWHEEL LIGHTS",
+    "type": "bool",
+    "value": "TO"
+  }, {
+    "title": "RUNWAY TURNOFF LIGHTS",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "GO-AROUND ALTITUDE",
+    "type": "bool",
+    "value": "SET"
+  }, {
+    "title": "ECAM MEMO",
+    "type": "bool",
+    "value": "LDG NO BLUE"
+  }, {
+    "title": "CHECK",
+    "type": "reminder",
+    "value": [{
+      "title": "PREPARE GROUND FREQUENCY",
+      "value": "",
+      "img": "/img/control_tower.webp"
+    }
+    ]
+  }, {
+    "title": "GROUND FREQUENCY STANDBY",
+    "type": "bool",
+    "value": "SET"
+  }
+  ]
+}, {
+  "title": "AFTER LANDING",
+  "items": [{
+    "title": "BRAKE FANS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "LANDING LIGHTS",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "NOSEWHEEL LIGHTS",
+    "type": "bool",
+    "value": "TAXI"
+  }, {
+    "title": "RUNWAY TURNOFF LIGHTS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "FLAPS",
+    "type": "bool",
+    "value": "RETRACTED"
+  }, {
+    "title": "ENGINE SELECTOR MODE",
+    "type": "bool",
+    "value": "NORMAL"
+  }, {
+    "title": "TCAS",
+    "type": "bool",
+    "value": "STANDBY"
+  }, {
+    "title": "WEATHER RADAR",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "PREDICTIVE WINDSHEAR",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "TERRAIN",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "FLIGHT DIRECTORS",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "APU",
+    "type": "bool",
+    "value": "START"
+  }, {
+    "title": "WING ANTI-ICE",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "ENGINE ANTI-ICE",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "APU BLEED",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "TURNING INTO GATE:",
+    "type": "reminder",
+    "value": [{
+      "title": "RUNWAY TURNOFF LIGHTS",
+      "value": "OFF",
+      "img": "/img/light.webp"
+    }, {
+      "title": "NOSEWHEEL LIGHTS",
+      "value": "OFF",
+      "img": "/img/light.webp"
+    }
+    ]
+  }
+  ]
+}, {
+  "title": "PARKING",
+  "items": [{
+    "title": "PARKING BRAKE",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "ENGINE MASTER 1 + 2",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "FUEL PUMPS",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "BEACON LIGHTS",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "TRANSPONDER MODE",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "ANTI-ICE",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "EXTERIOR LIGHTS",
+    "type": "bool",
+    "value": "AS REQUIRED"
+  }, {
+    "title": "EXTERNAL POWER",
+    "type": "bool",
+    "value": "ON"
+  }, {
+    "title": "APU",
+    "type": "bool",
+    "value": "OFF"
+  }, {
+    "title": "DEBOARDING",
+    "type": "reminder",
+    "value": [{
+      "title": "REQUEST JETWAY/STAIRS",
+      "value": "",
+      "img": "/img/jetway.webp"
+    }, {
+      "title": "OPEN DOORS",
+      "value": "",
+      "img": "/img/door.webp"
+    }
+    ]
+  }, {
+    "title": "DEBOARDING",
+    "type": "bool",
+    "value": "STARTED"
+  }
+  ]
+}
 ]

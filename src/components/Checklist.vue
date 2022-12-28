@@ -4,7 +4,7 @@
       <h2>{{list.title}}</h2>
       <div class="checklist-item" v-for="item in list.items" :key="item">
         <ChecklistBoolItem v-if="item.type === 'bool'" :item="item" />
-        <ChecklistConditionalItem v-else-if="item.type === 'conditional'" :item="item" />
+        <ChecklistReminderItem v-else-if="item.type === 'reminder'" :item="item" />
       </div>
       <div class="checklist-complete">
         <h3>{{list.title}}</h3>
@@ -18,7 +18,7 @@
 
 <script>
 import ChecklistBoolItem from './ChecklistBoolItem.vue'
-import ChecklistConditionalItem from "@/components/ChecklistConditionalItem.vue";
+import ChecklistReminderItem from "@/components/ChecklistReminderItem.vue";
 
 export default {
   name: "ChecklistView",
@@ -27,7 +27,7 @@ export default {
   },
   components: {
     ChecklistBoolItem,
-    ChecklistConditionalItem
+    ChecklistReminderItem
   },
   methods: {
     scrollToNext(event) {
