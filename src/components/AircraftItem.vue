@@ -43,6 +43,13 @@ h1{
   width: 300px;
   height: 420px;
   padding: 0;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+  opacity: 1;
+}
+.main:hover {
+  transform: translate3d(0px, -13px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)
 }
 .image-container{
   width: 300px;
