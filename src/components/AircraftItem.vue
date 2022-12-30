@@ -71,7 +71,7 @@ h1{
   padding: 0 0 0 0;
 }
 .tag{
-  margin: 0 5px;
+  margin: 0 5px 10px 5px;
   padding: 5px 25px;
   font-size: 12px;
   text-transform: uppercase;

@@ -9,6 +9,10 @@
         "color": "#d91d81"
       },
       {
+        "text": "Not Implemented",
+        "color": "darkred"
+      },
+      {
         "text": "A310-300",
         "color": "#00205b"
       }
