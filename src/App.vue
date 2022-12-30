@@ -1,7 +1,9 @@
 <template>
   <header @click="this.selectedChecklist = null">
     <img alt="Simflow logo" :class="{ logoSmall: this.selectedChecklist, 'logo': !this.selectedChecklist }" src="@/assets/img/logo.webp"/>
-    <div class="return-button" v-if="this.selectedChecklist">Return</div>
+    <Transition>
+      <div class="return-button" v-if="this.selectedChecklist">Return</div>
+    </Transition>
   </header>
 
   <main class="flex-center flex-vertical" v-if="!selectedChecklist">
@@ -97,11 +99,23 @@ export default {
   .logo {
     height: 88px;
     width: 427px;
+    transition: all 0.5s ease, transform 0.5s;
   }
 
   .logoSmall{
     width: 200px;
     height: 41px;
+    transition: transform 0.5s, width 0.5s, height 0.5s ease-in-out;
+  }
+
+  .v-enter-active,
+  .v-leave-active {
+    transition: transform 0.5s ease;
+  }
+
+  .v-enter-from,
+  .v-leave-to {
+    transform: translateX(100px) scale(0);
   }
 
   .return-button{
