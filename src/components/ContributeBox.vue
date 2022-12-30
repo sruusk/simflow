@@ -5,7 +5,7 @@
         Creating detailed checklists/flows for several aircraft is a demanding task. If you feel like contributing to this project do not hesitate to join the Discord-channel.
       </p>
       <div class="flex-center">
-        <a href="https://discord.gg/8qZ3Y4Y" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.gg/5KyYgrMZe6" target="_blank" rel="noopener noreferrer">
           <img src="../assets/img/discord_logo.svg" alt="Discord logo" id="discord-logo">
         </a>
       </div>
