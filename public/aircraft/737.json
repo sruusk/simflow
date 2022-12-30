@@ -106,6 +106,72 @@
     ]
   },
   {
+    "title": "PRE-FLIGHT",
+    "items": [
+      {
+        "title": "ALTIMETER / SQUAWK",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "TRANSPONDER",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "FUEL / LOAD / BOARDING",
+        "type": "bool",
+        "value": "COMPLETED"
+      },
+      {
+        "title": "TAKE OFF DATA",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "FLT. ALTITUDE PRESSURE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "MCP",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "COM. RADIO",
+        "type": "bool",
+        "value": "FREQUENCIES SET"
+      },
+      {
+        "title": "CHECK",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "TAXI ROUTE BRIEFED AND READY",
+            "value": "",
+            "img": "/img/runway.webp"
+          },
+          {
+            "title": "DOORS CLOSED",
+            "value": "",
+            "img": "/img/doors.webp"
+          },
+          {
+            "title": "GROUND EQUIPMENT CLEAR",
+            "value": "",
+            "img": "/img/stairs.webp"
+          },
+          {
+            "title": "REQUEST PUSHBACK CLEARANCE",
+            "value": "",
+            "img": "/img/pushback.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "BEFORE START",
     "items": [
       {
