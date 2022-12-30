@@ -1,20 +1,20 @@
 [
   {
-    "manufacturer": "Boeing",
-    "type": "737",
-    "image": "/img/boeing_737.webp",
+    "manufacturer": "Airbus",
+    "type": "A310",
+    "image": "/img/airbus_a310.webp",
     "tags": [
       {
         "text": "NEW",
         "color": "#d91d81"
       },
       {
-        "text": "737",
-        "color": "#0039a6"
+        "text": "A310-300",
+        "color": "#00205b"
       }
     ],
-    "description": "Full checklist for normal operations of the Boeing 737. Includes flows and reminders for online procedures.",
-    "checklist": "/aircraft/737.json"
+    "description": "Full checklist for normal operations of the Airbus A310. Includes flows and reminders for online procedures.",
+    "checklist": "/aircraft/a310.json"
   },
   {
     "manufacturer": "Airbus",
@@ -22,15 +22,24 @@
     "image": "/img/airbus_a320.webp",
     "tags": [
       {
-        "text": "NEW",
-        "color": "#d91d81"
-      },
-      {
         "text": "A320",
         "color": "#00205b"
       }
     ],
     "description": "Full checklist for normal operations of the Airbus A320. Includes flows and reminders for online procedures.",
     "checklist": "/aircraft/a320.json"
+  },
+  {
+    "manufacturer": "Boeing",
+    "type": "737",
+    "image": "/img/boeing_737.webp",
+    "tags": [
+      {
+        "text": "737",
+        "color": "#0039a6"
+      }
+    ],
+    "description": "Full checklist for normal operations of the Boeing 737. Includes flows and reminders for online procedures.",
+    "checklist": "/aircraft/737.json"
   }
 ]
