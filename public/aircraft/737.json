@@ -832,11 +832,6 @@
     "title": "AFTER LANDING",
     "items": [
       {
-        "title": "TRANSPONDER",
-        "type": "bool",
-        "value": "ALT OFF"
-      },
-      {
         "title": "FLAPS",
         "type": "bool",
         "value": "RETRACT"
@@ -918,6 +913,11 @@
   {
     "title": "SHUTDOWN",
     "items": [
+      {
+        "title": "TRANSPONDER",
+        "type": "bool",
+        "value": "OFF"
+      },
       {
         "title": "PARKING BRAKES",
         "type": "bool",
