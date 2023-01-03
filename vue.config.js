@@ -26,5 +26,8 @@ module.exports = {
             msTileImage: 'icon.webp'
         },
         workboxPluginMode: 'GenerateSW',
+        workboxOptions: {
+            skipWaiting: true,
+        }
     }
 }
