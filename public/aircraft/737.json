@@ -734,6 +734,11 @@
         "value": "CHECK"
       },
       {
+        "title": "ENGINE START SWITCHES",
+        "type": "bool",
+        "value": "CONT"
+      },
+      {
         "title": "CHECK:",
         "type": "reminder",
         "value": [
