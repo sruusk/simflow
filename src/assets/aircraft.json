@@ -41,5 +41,18 @@
     ],
     "description": "Full checklist for normal operations of the Boeing 737. Includes flows and reminders for online procedures.",
     "checklist": "/aircraft/737.json"
+  },
+  {
+    "manufacturer": "Bombardier",
+    "type": "CRJ-700",
+    "image": "/img/bombardier_crj.webp",
+    "tags": [
+      {
+        "text": "CRJ",
+        "color": "#00205b"
+      }
+    ],
+    "description": "Full checklist for normal operations of the Bombardier CRJ-700. Includes flows and reminders for online procedures.",
+    "checklist": "/aircraft/crj-700.json"
   }
 ]

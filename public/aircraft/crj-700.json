@@ -1,0 +1,653 @@
+[
+    {
+        "title": "SAFETY CHECK",
+        "items": [
+            {
+                "title": "CIRCUIT BREAKERS",
+                "type": "bool",
+                "value": "CLOSED"
+            },
+            {
+                "title": "N/W STRG SWITCH",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "HYDRAULIC PUMPS",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "LDG GEAR LEVER",
+                "type": "bool",
+                "value": "DN / DOWN"
+            },
+            {
+                "title": "FLIGHT SPOILER LEVER",
+                "type": "bool",
+                "value": "RETRACTED"
+            },
+            {
+                "title": "SLATS / FLAPS LEVER",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "RADAR",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "ADG MANUAL RELEASE",
+                "type": "bool",
+                "value": "STOWED"
+            },
+            {
+                "title": "EMER FLAP SWITCH",
+                "type": "bool",
+                "value": "NORMAL"
+            },
+            {
+                "title": "BATTERY MASTER SWITCH",
+                "type": "bool",
+                "value": "ON"
+            },
+            {
+                "title": "APU",
+                "type": "bool",
+                "value": "ON/OFF"
+            },
+            {
+                "title": "AC ELECTRICS",
+                "type": "bool",
+                "value": "AS REQUIRED"
+            },
+            {
+                "title": "IRS",
+                "type": "bool",
+                "value": "NAV"
+            },
+            {
+                "title": "EMERGENCY EQUIPMENT",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "GEAR AND SAFETY PINS",
+                "type": "bool",
+                "value": "ON BOARD"
+            },
+            {
+                "title": "AIRPLANE DOCUMENTS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "HYDRAULIC 3A PUMP",
+                "type": "bool",
+                "value": "ON/OFF"
+            },
+            {
+                "title": "FMS INITIALIZATION",
+                "type": "bool",
+                "value": "COMPLETE"
+            }
+        ]
+    },
+    {
+        "title": "CABIN INSPECTION & EXTERNAL WALKAROUND",
+        "items": [
+            {
+                "title": "CABIN INSPECTION",
+                "type": "bool",
+                "value": "ACCOMPLISH"
+            },
+            {
+                "title": "WALKAROUND INSPECTION",
+                "type": "bool",
+                "value": "ACCOMPLISH"
+            }
+        ]
+    },
+    {
+        "title": "ORIGINATING CHECK",
+        "items": [
+            {
+                "title": "ONLY FIRST FLIGHT OF THE DAY:",
+                "type": "reminder",
+                "value": [
+                    {
+                        "title": "CREW OXYGEN AND MASKS",
+                        "value": "CHECKED / _____PSI",
+                        "img": "/img/symbols/loading.webp"
+                    },
+                    {
+                        "title": "FIRE DETECTION / FIREX MONITOR TEST",
+                        "value": "COMPLETE",
+                        "img": "/img/symbols/push_button.webp"
+                    }
+                ]
+            },
+            {
+                "title": "AUDIO WARNING PANEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "ELECTRICAL POWER PANEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "EXTERNAL LIGHTS PANEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "FUEL PANEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "BLEED AIR PANEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "APU PANEL",
+                "type": "bool",
+                "value": "ON/OFF"
+            },
+            {
+                "title": "START PANEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "HYDRAULIC PANEL",
+                "type": "bool",
+                "value": "CHECKED, AUTO, ON (3A)"
+            },
+            {
+                "title": "ELT SWITCH",
+                "type": "bool",
+                "value": "ARM / RESET"
+            },
+            {
+                "title": "CABIN PRESS PANEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "AIR CONDITIONING PANEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "ANTI-ICE PANEL",
+                "type": "bool",
+                "value": "CHECKED, COMPLETE"
+            },
+            {
+                "title": "WSHLD HEAT",
+                "type": "bool",
+                "value": "LOW"
+            },
+            {
+                "title": "EMER LTS SWITCH",
+                "type": "bool",
+                "value": "ARMED"
+            },
+            {
+                "title": "STANDBY COMPASS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "N/W STRG SWITCH",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "CLOCKS",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "INSTRUMENT PANELS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "UPPER PEDESTAL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "THRUST LEVER QUADRANT",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "TRIMS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "YAW DAMPER",
+                "type": "bool",
+                "value": "ENGAGE"
+            },
+            {
+                "title": "SOURCE SELECT PANEL",
+                "type": "bool",
+                "value": "NORM"
+            }
+        ]
+    },
+    {
+        "title": "BEFORE START CHECK",
+        "items": [
+            {
+                "title": "PASS SIGNS",
+                "type": "bool",
+                "value": "ON"
+            },
+            {
+                "title": "LDG ELEV",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "ALTIMETERS",
+                "type": "bool",
+                "value": "___,___ FEET"
+            },
+            {
+                "title": "FMS",
+                "type": "bool",
+                "value": "CHECKED, SET"
+            },
+            {
+                "title": "IRS",
+                "type": "bool",
+                "value": "ALIGNED, NAV"
+            },
+            {
+                "title": "TAKE-OFF BRIEFING",
+                "type": "bool",
+                "value": "COMPLETE"
+            }
+        ]
+    },
+    {
+        "title": "CLEARED TO START CHECK",
+        "items": [
+            {
+                "title": "PERSONAL ELECTRONIC DEV",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "APU",
+                "type": "bool",
+                "value": "ON"
+            },
+            {
+                "title": "ELECTRICS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "TAKE-OFF DATA",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "DOORS",
+                "type": "bool",
+                "value": "CLOSED / LOCKED"
+            },
+            {
+                "title": "BEACON",
+                "type": "bool",
+                "value": "ON"
+            },
+            {
+                "title": "FUEL PUMPS AND QUANTITY",
+                "type": "bool",
+                "value": "ON, __kg/lbs"
+            },
+            {
+                "title": "HYDRAULIC PUMPS",
+                "type": "bool",
+                "value": "AUTO / ON"
+            },
+            {
+                "title": "PARKING BRAKE",
+                "type": "bool",
+                "value": "ON/OFF"
+            }
+        ]
+    },
+    {
+        "title": "AFTER START CHECK",
+        "items": [
+            {
+                "title": "GENERATORS",
+                "type": "bool",
+                "value": "AUTO"
+            },
+            {
+                "title": "ELECTRICS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "BLEED VALVES",
+                "type": "bool",
+                "value": "AUTO"
+            },
+            {
+                "title": "PACKS",
+                "type": "bool",
+                "value": "ON"
+            },
+            {
+                "title": "APU",
+                "type": "bool",
+                "value": "ON/OFF"
+            },
+            {
+                "title": "ANTI-ICE",
+                "type": "bool",
+                "value": "ON/OFF"
+            },
+            {
+                "title": "N/W STRG",
+                "type": "bool",
+                "value": "ARMED"
+            }
+        ]
+    },
+    {
+        "title": "TAXI CHECK",
+        "items": [
+            {
+                "title": "SLATS / FLAPS",
+                "type": "bool",
+                "value": "___ ° INDICATING"
+            },
+            {
+                "title": "FLIGHT CONTROLS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "TRIMS",
+                "type": "bool",
+                "value": "GREEN & ____ UNITS"
+            },
+            {
+                "title": "THRUST REVERSERS",
+                "type": "bool",
+                "value": "ARMED"
+            },
+            {
+                "title": "FLIGHT INSTRUMENTS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "BRAKE TEMP",
+                "type": "bool",
+                "value": "CHECKE"
+            }
+        ]
+    },
+    {
+        "title": "BEFORE TAKE-OFF CHECK",
+        "items": [
+            {
+                "title": "LIGHTS AND STROBES",
+                "type": "bool",
+                "value": "ON"
+            },
+            {
+                "title": "FUEL, XFLOW",
+                "type": "bool",
+                "value": "MANUAL"
+            },
+            {
+                "title": "FLIGHT ATTENDANT",
+                "type": "bool",
+                "value": "ADVISED"
+            },
+            {
+                "title": "RADAR / TERRAIN DISPLAY",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "CAS",
+                "type": "bool",
+                "value": "CHECKED"
+            }
+        ]
+    },
+    {
+        "title": "CLIMB CHECK",
+        "items": [
+            {
+                "title": "FUEL, XLFOW",
+                "type": "bool",
+                "value": "AUTO"
+            },
+            {
+                "title": "BLEEDS AND APU",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "THRUST REVERSERS",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "CAS",
+                "type": "bool",
+                "value": "CHECKED"
+            }
+        ]
+    },
+    {
+        "title": "DESCENT CHECK",
+        "items": [
+            {
+                "title": "LDG ELEV",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "FUEL",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "TCAS",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "RADAR",
+                "type": "bool",
+                "value": "ON/OFF"
+            },
+            {
+                "title": "CAS",
+                "type": "bool",
+                "value": "CHECKED"
+            },
+            {
+                "title": "LANDING DATA",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "APPROACH BRIEFING",
+                "type": "bool",
+                "value": "COMPLETE"
+            }
+        ]
+    },
+    {
+        "title": "BEFORE LANDING CHECK",
+        "items": [
+            {
+                "title": "FLIGHT ATTENDANT",
+                "type": "bool",
+                "value": "ADVISED"
+            },
+            {
+                "title": "PASS SIGNS",
+                "type": "bool",
+                "value": "ON"
+            },
+            {
+                "title": "THRUST REVERSERS",
+                "type": "bool",
+                "value": "ARMED"
+            },
+            {
+                "title": "LDG GEAR",
+                "type": "bool",
+                "value": "DOWN"
+            },
+            {
+                "title": "FLAPS",
+                "type": "bool",
+                "value": "___ ° INDICATING"
+            }
+        ]
+    },
+    {
+        "title": "AFTER LANDING CHECK",
+        "items": [
+            {
+                "title": "APU",
+                "type": "bool",
+                "value": "ON/OFF"
+            },
+            {
+                "title": "TRANSPONDER / RADAR",
+                "type": "bool",
+                "value": "STBY / OFF"
+            },
+            {
+                "title": "FLAPS",
+                "type": "bool",
+                "value": "UP / ZERO"
+            },
+            {
+                "title": "LIGHTS AND STROBES",
+                "type": "bool",
+                "value": "SET"
+            },
+            {
+                "title": "PROBES",
+                "type": "bool",
+                "value": "OFF"
+            }
+        ]
+    },
+    {
+        "title": "SHUTDOWN CHECK",
+        "items": [
+            {
+                "title": "PARKING BRAKE",
+                "type": "bool",
+                "value": "ON/OFF"
+            },
+            {
+                "title": "SEAT BELTS",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "THRUST LEVERS",
+                "type": "bool",
+                "value": "SHUT OFF"
+            },
+            {
+                "title": "ANTI ICE",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "FUEL PUMPS",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "BEACON",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "N/W STRG SWITCH",
+                "type": "bool",
+                "value": "OFF"
+            }
+        ]
+    },
+    {
+        "title": "TERMINATING CHECK",
+        "items": [
+            {
+                "title": "CHOCKS AND BRAKES",
+                "type": "bool",
+                "value": "IN / OFF"
+            },
+            {
+                "title": "IRS",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "EMER LTS SWITCH",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "ANTI-ICE",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "HYDRAULIC PUMPS",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "EXTERNAL LTS SWITCHES",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "APU",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "BATTERY MASTER",
+                "type": "bool",
+                "value": "OFF"
+            },
+            {
+                "title": "COCKPIT LIGHTS",
+                "type": "bool",
+                "value": "OFF"
+            }
+        ]
+    }
+]
