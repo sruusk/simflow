@@ -8,7 +8,7 @@
       </div>
       <div class="checklist-complete">
         <h3>{{list.title}}</h3>
-        <div class="checklist-complete-button" @click="this.scrollToNext">
+        <div class="button checklist-complete-button" @click="this.scrollToNext">
           COMPLETE
         </div>
       </div>
@@ -74,14 +74,7 @@ h3{
 }
 .checklist-complete-button{
   padding: 9px 12px;
-  background-color: #32e0c4;
-  color: #24665b;
-  border-radius: 8px;
   font-weight: 700;
   text-transform: uppercase;
-  cursor: pointer;
-}
-.checklist-complete-button:hover{
-  background-color: #11ffd9;
 }
 </style>

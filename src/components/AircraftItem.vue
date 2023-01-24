@@ -10,7 +10,7 @@
     </div>
     <p class="aircraft-description">{{aircraft.description}}</p>
     <div class="flex-center">
-      <div class="start-button">Start checklist</div>
+      <div class="button start-button">Start checklist</div>
     </div>
   </div>
 </template>
@@ -85,13 +85,11 @@ p{
   margin: 30px 20px;
 }
 .start-button{
-  background-color: #5cdec4;
   width: 180px;
   font-weight: 700;
   line-height: 38px;
   border-radius: 8px;
   text-align: center;
-  color: #24665b;
   margin-bottom: 20px;
 }
 .start-button:hover{

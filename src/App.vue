@@ -2,7 +2,7 @@
   <header @click="this.selectedChecklist = null">
     <img alt="Simflow logo" :class="{ logoSmall: this.selectedChecklist, 'logo': !this.selectedChecklist }" src="@/assets/img/logo.webp"/>
     <Transition>
-      <div class="return-button" v-if="this.selectedChecklist">Return</div>
+      <div class="button return-button" v-if="this.selectedChecklist">Return</div>
     </Transition>
   </header>
 
@@ -54,12 +54,26 @@ export default {
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
   body{
-    background-color: #232831;
+    background-color: #040e29;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: white;
+  }
+
+  .button{
+    color: #24665b;
+    background-color: #32e0c4;
+    background-image: linear-gradient(150deg, #32e0c4, #38d2ea);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+    background-color: #11ffd9;
+    background-image: linear-gradient(150deg, #38d2ea, #32e0c4);
+    filter: brightness(1.2);
   }
 
   .flex-center {
@@ -78,7 +92,7 @@ export default {
 
   .round-container {
     border-radius: 20px;
-    background-color: #393e46;
+    background-color: #28324d;
     padding: 20px;
     margin: 20px;
   }
@@ -120,12 +134,8 @@ export default {
 
   .return-button{
     margin-left: 100px;
+    padding: 9px 40px;
     font-size: 16px;
     font-weight: 700;
-    color: #24665b;
-    background-color: #32e0c4;
-    border-radius: 8px;
-    padding: 9px 40px;
-    cursor: pointer;
   }
 </style>
