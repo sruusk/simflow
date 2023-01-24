@@ -48,8 +48,8 @@ p{
 .main{
   width: 100%;
   height: 25px;
-  margin: 5px 0 0 0;
-  padding: 0 0 5px 0;
+  margin: 0;
+  padding: 5px 0 5px 0;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
