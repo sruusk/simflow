@@ -1,7 +1,7 @@
 <template>
-  <div class="main">
+  <div class="main" @click="this.toggleCheck">
     <h3>{{this.item.title}}</h3>
-    <div class="check" @click="this.toggleCheck">
+    <div class="check">
       <p>{{this.item.value}}</p>
       <div class="check-icon"/>
     </div>
