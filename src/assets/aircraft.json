@@ -5,10 +5,6 @@
     "image": "/img/airbus_a310.webp",
     "tags": [
       {
-        "text": "NEW",
-        "color": "#d91d81"
-      },
-      {
         "text": "A310-300",
         "color": "#00205b"
       }
@@ -22,7 +18,7 @@
     "image": "/img/airbus_a320.webp",
     "tags": [
       {
-        "text": "A320",
+        "text": "A320-200",
         "color": "#00205b"
       }
     ],
@@ -35,7 +31,7 @@
     "image": "/img/boeing_737.webp",
     "tags": [
       {
-        "text": "737",
+        "text": "737-700",
         "color": "#0039a6"
       }
     ],
@@ -48,7 +44,11 @@
     "image": "/img/bombardier_crj.webp",
     "tags": [
       {
-        "text": "CRJ",
+        "text": "NEW",
+        "color": "#d91d81"
+      },
+      {
+        "text": "CRJ-700",
         "color": "#00205b"
       }
     ],
