@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "register-service-worker": "^1.7.2",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vue3-perfect-scrollbar": "^1.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.7",

@@ -1,13 +1,13 @@
 <template>
   <div class="flex-center flex-vertical">
-    <div class="round-container" v-for="list in checklist" :key="list">
-      <h2>{{list.title}}</h2>
-      <div class="checklist-item" v-for="item in list.items" :key="item">
-        <ChecklistBoolItem v-if="item.type === 'bool'" :item="item" />
-        <ChecklistReminderItem v-else-if="item.type === 'reminder'" :item="item" />
+    <div v-for="list in checklist" :key="list" class="round-container">
+      <h2>{{ list.title }}</h2>
+      <div v-for="item in list.items" :key="item" class="checklist-item">
+        <ChecklistBoolItem v-if="item.type === 'bool'" :item="item"/>
+        <ChecklistReminderItem v-else-if="item.type === 'reminder'" :item="item"/>
       </div>
       <div class="checklist-complete">
-        <h3>{{list.title}}</h3>
+        <h3>{{ list.title }}</h3>
         <div class="button checklist-complete-button" @click="this.scrollToNext">
           COMPLETE
         </div>
@@ -33,7 +33,7 @@ export default {
     scrollToNext(event) {
       let next = event.target.parentElement.parentElement.nextElementSibling;
       if (next) {
-        next.scrollIntoView({ behavior: 'smooth' });
+        next.scrollIntoView({behavior: 'smooth'});
       }
     }
   }
@@ -41,38 +41,43 @@ export default {
 </script>
 
 <style scoped>
-h2{
+h2 {
   margin: 0 0 30px 0;
   font-size: 20px;
   line-height: 44px;
   font-weight: bold;
   text-transform: uppercase;
 }
-h3{
+
+h3 {
   margin: 0 0 0 0;
   font-size: 16px;
   line-height: 30px;
   font-weight: bold;
   text-transform: uppercase;
 }
-.round-container{
+
+.round-container {
   max-width: 433px;
   width: 85%;
   padding: 20px;
 }
-.checklist-item{
+
+.checklist-item {
   border-bottom-style: dotted;
   border-bottom-width: 1px;
   border-color: hsla(0, 0%, 100%, 0.1);
 }
-.checklist-complete{
+
+.checklist-complete {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   margin: 30px 0 0 0;
 }
-.checklist-complete-button{
+
+.checklist-complete-button {
   padding: 9px 12px;
   font-weight: 700;
   text-transform: uppercase;

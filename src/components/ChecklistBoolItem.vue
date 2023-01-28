@@ -1,8 +1,8 @@
 <template>
   <div class="main" @click="this.toggleCheck">
-    <h3>{{this.item.title}}</h3>
+    <h3>{{ this.item.title }}</h3>
     <div class="check">
-      <p>{{this.item.value}}</p>
+      <p>{{ this.item.value }}</p>
       <div class="check-icon"/>
     </div>
   </div>
@@ -22,7 +22,7 @@ export default {
     }
   },
   watch: {
-    checked: function() {
+    checked: function () {
       this.$emit('update:isTicked', this.checked)
     }
   },
@@ -35,17 +35,19 @@ export default {
 </script>
 
 <style scoped>
-h3{
+h3 {
   font-size: 14px;
   line-height: 20px;
   font-weight: normal;
   margin: 0;
 }
-p{
+
+p {
   color: #717985;
   margin: 0;
 }
-.main{
+
+.main {
   width: 100%;
   height: 25px;
   margin: 0;
@@ -56,14 +58,16 @@ p{
   align-items: center;
   text-transform: uppercase;
 }
-.check{
+
+.check {
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
 }
-.check-icon{
+
+.check-icon {
   margin: 0 0 0 5px;
   width: 19px;
   height: 19px;
@@ -72,7 +76,8 @@ p{
   border-width: 3px;
   border-radius: 50%;
 }
-.check :deep(.checked){
+
+.check :deep(.checked) {
   border-color: #0d7377;
   background-color: #32e0c4;
   background-image: url("@/assets/img/checkmark.webp");

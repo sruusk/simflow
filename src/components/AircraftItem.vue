@@ -1,14 +1,15 @@
 <template>
   <div class="round-container main">
-    <div class="image-container" :style="`background-image: url(${aircraft.image})`">
+    <div :style="`background-image: url(${aircraft.image})`" class="image-container">
       <div class="tags">
-        <div class="tag round-container" v-for="tag in aircraft.tags" :key="tag.text" :style="{'background-color': tag.color}">
-          {{tag.text}}
+        <div v-for="tag in aircraft.tags" :key="tag.text" :style="{'background-color': tag.color}"
+             class="tag round-container">
+          {{ tag.text }}
         </div>
       </div>
-      <h1 class="aircraft-name">{{aircraft.manufacturer}} {{aircraft.type}}</h1>
+      <h1 class="aircraft-name">{{ aircraft.manufacturer }} {{ aircraft.type }}</h1>
     </div>
-    <p class="aircraft-description">{{aircraft.description}}</p>
+    <p class="aircraft-description">{{ aircraft.description }}</p>
     <div class="flex-center">
       <div class="button start-button">Start checklist</div>
     </div>
@@ -30,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-h1{
+h1 {
   text-transform: uppercase;
   width: 100%;
   margin: -60px 0 10px 0;
@@ -39,6 +40,7 @@ h1{
   line-height: 44px;
   position: relative;
 }
+
 .main {
   width: 300px;
   height: 420px;
@@ -51,10 +53,12 @@ h1{
   flex-direction: column;
   justify-content: space-between;
 }
+
 .main:hover {
   transform: translate3d(0px, -13px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)
 }
-.image-container{
+
+.image-container {
   width: 300px;
   height: 233px;
   background-size: cover;
@@ -64,6 +68,7 @@ h1{
   flex-direction: column;
   justify-content: space-between;
 }
+
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +78,8 @@ h1{
   padding: 0 0 0 0;
   position: relative;
 }
-.tag{
+
+.tag {
   margin: 0 5px 10px 5px;
   padding: 5px 25px;
   font-size: 12px;
@@ -81,10 +87,12 @@ h1{
   font-weight: 700;
   color: white;
 }
-p{
+
+p {
   margin: 30px 20px;
 }
-.start-button{
+
+.start-button {
   width: 180px;
   font-weight: 700;
   line-height: 38px;
@@ -92,7 +100,8 @@ p{
   text-align: center;
   margin-bottom: 20px;
 }
-.start-button:hover{
+
+.start-button:hover {
   cursor: pointer;
   background-color: #11ffd9;
 }
