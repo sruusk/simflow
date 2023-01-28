@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "ChecklistConditionalItem",
+  name: "ChecklistReminderItem",
   props: {
     item: Object
   },
@@ -33,7 +33,7 @@ export default {
 h3 {
   font-size: 14px;
   line-height: 20px;
-  font-weight: normal;
+  font-weight: 700;
   margin: 0;
   color: #32e0c4;
 }
@@ -56,6 +56,7 @@ p {
   width: 30px;
   height: 30px;
   margin: 0 20px 0 0;
+  filter: brightness(1.8);
 }
 
 .left, .right {

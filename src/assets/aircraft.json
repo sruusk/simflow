@@ -54,5 +54,22 @@
     ],
     "description": "Full checklist for normal operations of the Bombardier CRJ-700. Includes flows and reminders for online procedures.",
     "checklist": "/aircraft/crj-700.json"
+  },
+  {
+    "manufacturer": "Cessna",
+    "type": "172",
+    "image": "/img/cessna_172.webp",
+    "tags": [
+      {
+        "text": "NEW",
+        "color": "#d91d81"
+      },
+      {
+        "text": "172",
+        "color": "#00205b"
+      }
+    ],
+    "description": "Full checklist for normal operations of the Cessna 172. Includes flows and reminders for online procedures.",
+    "checklist": "/aircraft/c172.json"
   }
 ]

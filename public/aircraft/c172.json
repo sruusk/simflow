@@ -1,0 +1,481 @@
+[
+  {
+    "title": "PRE-FLIGHT",
+    "items": [
+      {
+        "title": "PARKING BRAKE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "IGNITION SWITCH",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "AVIONICS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "MASTER SWITCH",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "FUEL LEVER",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "AVIONICS",
+        "type": "bool",
+        "value": "ON & FAN AUDIBLE"
+      },
+      {
+        "title": "AVIONICS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "FUEL SELECTOR",
+        "type": "bool",
+        "value": "BOTH"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "FLAPS OPERATION",
+            "value": "",
+            "img": "/img/symbols/altitude.webp"
+          },
+          {
+            "title": "ANNUNCIATOR PANEL",
+            "value": "",
+            "img": "/img/symbols/bulb.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "BEFORE START",
+    "items": [
+      {
+        "title": "FUEL SHUTOFF VALVE",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "THROTTLE",
+        "type": "bool",
+        "value": "OPEN 1/4 INCH"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "IDLE CUTOFF"
+      },
+      {
+        "title": "MASTER SWITCH",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "BEACON",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "FUEL PUMP",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "FULL RICH - FUEL FLOW"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "IDLE CUTOFF"
+      },
+      {
+        "title": "FUEL PUMPS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "IGNITION",
+        "type": "bool",
+        "value": "START THEN BOTH"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "RICH"
+      },
+      {
+        "title": "THROTTLE",
+        "type": "bool",
+        "value": "ADJUST 1200 RPM"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE TAXI",
+    "items": [
+      {
+        "title": "NAV LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "TAXI LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "AVIONICS MASTER SWITCH",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "AVIONICS",
+            "value": "SET",
+            "img": "/img/symbols/heading.webp"
+          },
+          {
+            "title": "GPS",
+            "value": "SET",
+            "img": "/img/symbols/gps.webp"
+          },
+          {
+            "title": "AUTOPILOT",
+            "value": "SET",
+            "img": "/img/symbols/loading.webp"
+          }
+        ]
+      },
+      {
+        "title": "ALTIMETER",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "SQUAWK",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "PITOT HEAT",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "SET FOR TAKEOFF"
+      },
+      {
+        "title": "ELEVATOR TRIM",
+        "type": "bool",
+        "value": "SET FOR TAKEOFF"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "FLIGHT CONTROLS",
+            "value": "",
+            "img": "/img/symbols/yoke.webp"
+          },
+          {
+            "title": "MIXTURE - FULL RICH",
+            "value": "",
+            "img": "/img/symbols/lever.webp"
+          },
+          {
+            "title": "ATC CLEARANCE",
+            "value": "",
+            "img": "/img/symbols/airport.webp"
+          }
+        ]
+      },
+      {
+        "title": "PARKING BRAKE",
+        "type": "bool",
+        "value": "RELEASE"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE TAKE-OFF",
+    "items": [
+      {
+        "title": "STROBE LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "LANDING/TAXI LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "FLAPS (NORMAL 0° / SHORT FIELD 10°)",
+            "value": "",
+            "img": "/img/symbols/altitude.webp"
+          },
+          {
+            "title": "MIXTURE",
+            "value": "",
+            "img": "/img/symbols/lever.webp"
+          },
+          {
+            "title": "FUEL SELECTOR VALVE",
+            "value": "BOTH",
+            "img": "/img/symbols/switch.webp"
+          },
+          {
+            "title": "AVIONICS/GPS/AP",
+            "value": "",
+            "img": "/img/symbols/briefing.webp"
+          },
+          {
+            "title": "ATC CLEARANCE",
+            "value": "",
+            "img": "/img/symbols/airport.webp"
+          }
+        ]
+      },
+      {
+        "title": "STATIC RUN UP:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "FULL THROTTLE",
+            "value": "2300 - 2400 RPM",
+            "img": "/img/symbols/speed.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AFTER TAKE-OFF",
+    "items": [
+      {
+        "title": "THROTTLE",
+        "type": "bool",
+        "value": "FULL"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "FULL RICH"
+      },
+      {
+        "title": "PASSING TRANSITION ALTITUDE:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "SET ALTIMETER TO STD",
+            "value": "",
+            "img": "/img/symbols/barometer.webp"
+          }
+        ]
+      },
+      {
+        "title": "ALTIMETER",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "LANDING/TAXI LIGHTS",
+        "type": "bool",
+        "value": "OFF"
+      }
+    ]
+  },
+  {
+    "title": "CRUISE",
+    "items": [
+      {
+        "title": "THROTTLE",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "LEAN"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "FLIGHT PLAN",
+            "value": "",
+            "img": "/img/symbols/route.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "DESCENT",
+    "items": [
+      {
+        "title": "THROTTLE",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "ADJ. FOR SMOOTH OP."
+      },
+      {
+        "title": "PASSING 10,000ft:",
+        "type": "reminder",
+        "value": []
+      },
+      {
+        "title": "LANDING/TAXI LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "PASSING TRANSITION ALTITUDE:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "SET LOCAL QNH/QFE",
+            "value": "",
+            "img": "/img/symbols/barometer.webp"
+          }
+        ]
+      },
+      {
+        "title": "ALTIMETER",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "AVIONICS/GPS/AP",
+            "value": "",
+            "img": "/img/symbols/briefing.webp"
+          },
+          {
+            "title": "ILS FREQUENCY",
+            "value": "",
+            "img": "/img/symbols/antenna.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "BEFORE LANDING",
+    "items": [
+      {
+        "title": "FUEL SELECTOR VALVE",
+        "type": "bool",
+        "value": "BOTH"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "FULL RICH"
+      },
+      {
+        "title": "ILS FREQUENCY",
+        "type": "bool",
+        "value": "CHECK"
+      }
+    ]
+  },
+  {
+    "title": "AFTER LANDING",
+    "items": [
+      {
+        "title": "LANDING LIGHTS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "STROBE LIGHTS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "UP"
+      },
+      {
+        "title": "TRIM",
+        "type": "bool",
+        "value": "NEUTRAL"
+      }
+    ]
+  },
+  {
+    "title": "SHUTDOWN",
+    "items": [
+      {
+        "title": "PARKING BRAKE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "PITOT HEAT",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "EXTERIOR LIGHTS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "AVIONICS MASTER SWITCH",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "MIXTURE",
+        "type": "bool",
+        "value": "IDLE CUTOFF"
+      },
+      {
+        "title": "IGNITION",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "MASTER",
+        "type": "bool",
+        "value": "OFF"
+      }
+    ]
+  }
+]
