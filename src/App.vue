@@ -1,25 +1,23 @@
 <template>
-  <perfect-scrollbar :autoHide="false" class="scroll-area">
-    <header @click="this.selectedChecklist = null">
-      <img :class="{ logoSmall: this.selectedChecklist, 'logo': !this.selectedChecklist }" alt="Simflow logo"
-           src="@/assets/img/logo.webp"/>
-      <Transition>
-        <div v-if="this.selectedChecklist" class="button return-button">Return</div>
-      </Transition>
-    </header>
+  <header @click="this.selectedChecklist = null">
+    <img :class="{ logoSmall: this.selectedChecklist, 'logo': !this.selectedChecklist }" alt="Simflow logo"
+         src="@/assets/img/logo.webp"/>
+    <Transition>
+      <div v-if="this.selectedChecklist" class="button return-button">Return</div>
+    </Transition>
+  </header>
 
-    <main v-if="!selectedChecklist" class="flex-center flex-vertical">
-      <div class="flex-center flex-wrap">
-        <AircraftItem v-for="aircraftItem in aircraft" :key="aircraftItem" :aircraft="aircraftItem"
-                      @click="this.showChecklist(aircraftItem)"/>
-      </div>
-      <ContributeBox/>
-    </main>
+  <main v-if="!selectedChecklist" class="flex-center flex-vertical">
+    <div class="flex-center flex-wrap">
+      <AircraftItem v-for="aircraftItem in aircraft" :key="aircraftItem" :aircraft="aircraftItem"
+                    @click="this.showChecklist(aircraftItem)"/>
+    </div>
+    <ContributeBox/>
+  </main>
 
-    <main v-else>
-      <Checklist :checklist="selectedChecklist"/>
-    </main>
-  </perfect-scrollbar>
+  <main v-else>
+    <Checklist :checklist="selectedChecklist"/>
+  </main>
 </template>
 
 <script>
@@ -106,11 +104,6 @@ body {
 </style>
 
 <style scoped>
-.scroll-area {
-  height: 100vh;
-  width: 100vw;
-}
-
 :deep(.ps__rail-y) {
   background-color: #28324d;
   border-radius: 10px;
