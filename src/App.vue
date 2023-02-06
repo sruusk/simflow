@@ -65,6 +65,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: white;
+  height: 100vh;
 }
 
 .button {
