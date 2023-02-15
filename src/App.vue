@@ -36,11 +36,23 @@ export default {
   data() {
     return {
       aircraft: aircraftList,
+      selectedAircraft: null,
       selectedChecklist: null,
+    }
+  },
+  watch: {
+    selectedChecklist: function () {
+      if (this.selectedChecklist) {
+        this.$router.push(`${this.selectedAircraft.checklist.replace('.json', '')}`);
+      } else {
+        this.$router.push('/');
+        this.selectedAircraft = null;
+      }
     }
   },
   methods: {
     showChecklist(aircraft) {
+      this.selectedAircraft = aircraft;
       fetch(aircraft.checklist)
         .then(response => response.json())
         .then(data => {
@@ -65,6 +77,8 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: white;
+  height: unset;
+  min-height: 100vh;
 }
 
 .button {
