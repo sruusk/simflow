@@ -8,7 +8,7 @@ import { VitePWA } from "vite-plugin-pwa";
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [vue(), VitePWA({
-        base: '/',
+        base: process.env.BASE_PATH || '/',
         srcDir: 'src',
         filename: 'sw.js',
         strategies: 'GenerateSW',
