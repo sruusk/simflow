@@ -3,13 +3,13 @@ import { useAircraftStore } from "@/stores";
 import HomeView from "@/views/HomeView.vue";
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         {
             name: 'home',
             path: '/',
             component: HomeView,
-            beforeEnter: (to, from) => {
+            beforeEnter: () => {
                 useAircraftStore().$reset();
             }
         },
@@ -17,7 +17,7 @@ const router = createRouter({
             name: 'aircraft',
             path: '/:aircraft',
             component: () => import('@/views/ChecklistView.vue'),
-            beforeEnter: async (to, from) => {
+            beforeEnter: async (to) => {
                 await useAircraftStore().getChecklist(to.params.aircraft);
             }
         }
