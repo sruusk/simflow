@@ -19,7 +19,7 @@ export default defineConfig({
         manifest: {
             name: 'Simflow',
             short_name: 'Simflow',
-            start_url: '/',
+            start_url: basePath,
             theme_color: '#040e29',
             background_color: '#040e29',
             orientation: 'portrait',
