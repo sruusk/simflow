@@ -4,16 +4,17 @@ import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { VitePWA } from "vite-plugin-pwa";
+const basePath = process.env.BASE_PATH || '/';
 
 // https://vitejs.dev/config/
 export default defineConfig({
     base: process.env.BASE_PATH || '/',
     plugins: [vue(), VitePWA({
-        base: process.env.BASE_PATH || '/',
+        base: basePath,
         srcDir: 'src',
         filename: 'sw.js',
         strategies: 'GenerateSW',
-        includeAssets: ['icon.webp', 'logo.webp', 'robots.txt'],
+        includeAssets: [`${ basePath }logo.webp`],
         registerType: 'autoUpdate',
         manifest: {
             name: 'Simflow',
@@ -24,7 +25,7 @@ export default defineConfig({
             orientation: 'portrait',
             icons: [
                 {
-                    src: '/icon.webp',
+                    src: `${ basePath }icon.webp`,
                     sizes: '256x256',
                     type: 'image/webp',
                     purpose: 'any maskable'
