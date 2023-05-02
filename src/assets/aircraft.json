@@ -24,6 +24,22 @@
     "description": "Full checklist for normal operations of the Airbus A320. Includes flows and reminders for online procedures."
   },
   {
+    "manufacturer": "ATR",
+    "type": "72-600",
+    "image": "img/AT76.webp",
+    "tags": [
+      {
+        "text": "NEW",
+        "color": "#d91d81"
+      },
+      {
+        "text": "ATR 72-600",
+        "color": "#00205b"
+      }
+    ],
+    "description": "Full checklist for normal operations of the ATR-72. Includes flows and reminders for online procedures."
+  },
+  {
     "manufacturer": "Boeing",
     "type": "737",
     "image": "img/boeing_737.webp",
@@ -56,10 +72,6 @@
     "type": "172",
     "image": "img/cessna_172.webp",
     "tags": [
-      {
-        "text": "NEW",
-        "color": "#d91d81"
-      },
       {
         "text": "172",
         "color": "#00205b"
