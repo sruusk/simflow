@@ -119,12 +119,12 @@
                     {
                         "title": "CREW OXYGEN AND MASKS",
                         "value": "CHECKED / _____PSI",
-                        "img": "/img/symbols/loading.webp"
+                        "img": "img/symbols/loading.webp"
                     },
                     {
                         "title": "FIRE DETECTION / FIREX MONITOR TEST",
                         "value": "COMPLETE",
-                        "img": "/img/symbols/push_button.webp"
+                        "img": "img/symbols/push_button.webp"
                     }
                 ]
             },

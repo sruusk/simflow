@@ -94,12 +94,12 @@
           {
             "title": "OBTAIN IFR CLEARANCE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           },
           {
             "title": "SET FMC",
             "value": "",
-            "img": "/img/symbols/flight_plan.webp"
+            "img": "img/symbols/flight_plan.webp"
           }
         ]
       }
@@ -150,22 +150,22 @@
           {
             "title": "TAXI ROUTE BRIEFED AND READY",
             "value": "",
-            "img": "/img/symbols/runway.webp"
+            "img": "img/symbols/runway.webp"
           },
           {
             "title": "DOORS CLOSED",
             "value": "",
-            "img": "/img/symbols/doors.webp"
+            "img": "img/symbols/doors.webp"
           },
           {
             "title": "GROUND EQUIPMENT CLEAR",
             "value": "",
-            "img": "/img/symbols/stairs.webp"
+            "img": "img/symbols/stairs.webp"
           },
           {
             "title": "REQUEST PUSHBACK CLEARANCE",
             "value": "",
-            "img": "/img/symbols/pushback.webp"
+            "img": "img/symbols/pushback.webp"
           }
         ]
       }
@@ -226,12 +226,12 @@
           {
             "title": "ENGINE 2 START SWITCH",
             "value": "GND",
-            "img": "/img/symbols/loading.webp"
+            "img": "img/symbols/loading.webp"
           },
           {
             "title": "AT 25% N2 - ENG 2 FUEL LEVER",
             "value": "RUN",
-            "img": "/img/symbols/lever.webp"
+            "img": "img/symbols/lever.webp"
           }
         ]
       },
@@ -247,12 +247,12 @@
           {
             "title": "ENGINE 1 START SWITCH",
             "value": "GND",
-            "img": "/img/symbols/loading.webp"
+            "img": "img/symbols/loading.webp"
           },
           {
             "title": "AT 25% N2 - ENG 1 FUEL LEVER",
             "value": "GND",
-            "img": "/img/symbols/lever.webp"
+            "img": "img/symbols/lever.webp"
           }
         ]
       },
@@ -353,12 +353,12 @@
           {
             "title": "REQUEST TAXI CLEARANCE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           },
           {
             "title": "PREPARE TOWER FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -429,12 +429,12 @@
           {
             "title": "REQUEST TAKE-OFF CLEARANCE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           },
           {
             "title": "PREPARE DEPARTURE FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -520,7 +520,7 @@
           {
             "title": "PREPARE CENTER FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -541,7 +541,7 @@
           {
             "title": "SET ALTIMETER TO STD - 29.92 / 1013",
             "value": "",
-            "img": "/img/symbols/barometer.webp"
+            "img": "img/symbols/barometer.webp"
           }
         ]
       },
@@ -627,7 +627,7 @@
           {
             "title": "ARRIVAL TAXI ROUTE BRIEFED AND READY",
             "value": "",
-            "img": "/img/symbols/runway.webp"
+            "img": "img/symbols/runway.webp"
           }
         ]
       },
@@ -668,7 +668,7 @@
           {
             "title": "SET LOCAL QNH/QFE",
             "value": "",
-            "img": "/img/symbols/barometer.webp"
+            "img": "img/symbols/barometer.webp"
           }
         ]
       },
@@ -704,7 +704,7 @@
           {
             "title": "PREPARE ARRIVAL FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -745,7 +745,7 @@
           {
             "title": "PREPARE TOWER FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -806,7 +806,7 @@
           {
             "title": "TAXI LIGHTS ON",
             "value": "",
-            "img": "/img/symbols/light.webp"
+            "img": "img/symbols/light.webp"
           }
         ]
       },
@@ -822,7 +822,7 @@
           {
             "title": "PREPARE GROUND FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -893,7 +893,7 @@
           {
             "title": "OBTAIN TAXI ROUTE TO GATE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           }
         ]
       },
@@ -909,7 +909,7 @@
           {
             "title": "TAXI LIGHTS",
             "value": "OFF",
-            "img": "/img/symbols/light.webp"
+            "img": "img/symbols/light.webp"
           }
         ]
       }
@@ -990,12 +990,12 @@
           {
             "title": "REQUEST JETWAY/STAIRS",
             "value": "",
-            "img": "/img/symbols/jetway.webp"
+            "img": "img/symbols/jetway.webp"
           },
           {
             "title": "OPEN DOORS",
             "value": "",
-            "img": "/img/symbols/doors.webp"
+            "img": "img/symbols/doors.webp"
           }
         ]
       },

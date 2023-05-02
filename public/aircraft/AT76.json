@@ -74,12 +74,12 @@
           {
             "title": "SET FMC",
             "value": "",
-            "img": "/img/symbols/flight_plan.webp"
+            "img": "img/symbols/flight_plan.webp"
           },
           {
             "title": "Obtain Clearance",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           }
         ]
       },
@@ -120,7 +120,7 @@
           {
             "title": "DEPARTURE – BRIEFED & CHECKED",
             "value": "",
-            "img": "/img/symbols/briefing.webp"
+            "img": "img/symbols/briefing.webp"
           }
         ]
       },
@@ -206,17 +206,17 @@
           {
             "title": "Doors Closed / Equipment Clear",
             "value": "",
-            "img": "/img/symbols/doors.webp"
+            "img": "img/symbols/doors.webp"
           },
           {
             "title": "Chocks Removed",
             "value": "",
-            "img": "/img/symbols/switch.webp"
+            "img": "img/symbols/switch.webp"
           },
           {
             "title": "REQUEST PUSH & START CLEARANCE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           }
         ]
       }
@@ -232,7 +232,7 @@
           {
             "title": "CLEAR BOTH SIDES",
             "value": "",
-            "img": "/img/symbols/switch.webp"
+            "img": "img/symbols/switch.webp"
           }
         ]
       },
@@ -248,27 +248,27 @@
           {
             "title": "ENG Prop Brake",
             "value": "OFF & GUARDED",
-            "img": "/img/symbols/switch.webp"
+            "img": "img/symbols/switch.webp"
           },
           {
             "title": "Start Selector Mode",
             "value": "START A & B",
-            "img": "/img/symbols/loading.webp"
+            "img": "img/symbols/loading.webp"
           },
           {
             "title": "ENG 2",
             "value": "ROTATE",
-            "img": "/img/symbols/start.webp"
+            "img": "img/symbols/start.webp"
           },
           {
             "title": "ENG 2 Condition",
             "value": "AUTO",
-            "img": "/img/symbols/lever.webp"
+            "img": "img/symbols/lever.webp"
           },
           {
             "title": "GEN 2",
             "value": "ON",
-            "img": "/img/symbols/push_button.webp"
+            "img": "img/symbols/push_button.webp"
           }
         ]
       },
@@ -304,7 +304,7 @@
           {
             "title": "REQUEST TAXI CLEARANCE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           }
         ]
       }
@@ -335,12 +335,12 @@
           {
             "title": "ENG 1",
             "value": "START",
-            "img": "/img/symbols/start.webp"
+            "img": "img/symbols/start.webp"
           },
           {
             "title": "ENG1 Condition",
             "value": "AUTO",
-            "img": "/img/symbols/lever.webp"
+            "img": "img/symbols/lever.webp"
           }
         ]
       },

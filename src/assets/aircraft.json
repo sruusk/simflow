@@ -2,7 +2,7 @@
   {
     "manufacturer": "Airbus",
     "type": "A310",
-    "image": "/img/airbus_a310.webp",
+    "image": "img/airbus_a310.webp",
     "tags": [
       {
         "text": "A310-300",
@@ -14,7 +14,7 @@
   {
     "manufacturer": "Airbus",
     "type": "A320",
-    "image": "/img/airbus_a320.webp",
+    "image": "img/airbus_a320.webp",
     "tags": [
       {
         "text": "A320-200",
@@ -26,7 +26,7 @@
   {
     "manufacturer": "Boeing",
     "type": "737",
-    "image": "/img/boeing_737.webp",
+    "image": "img/boeing_737.webp",
     "tags": [
       {
         "text": "737-700",
@@ -38,7 +38,7 @@
   {
     "manufacturer": "Bombardier",
     "type": "CRJ-700",
-    "image": "/img/bombardier_crj.webp",
+    "image": "img/bombardier_crj.webp",
     "tags": [
       {
         "text": "NEW",
@@ -54,7 +54,7 @@
   {
     "manufacturer": "Cessna",
     "type": "172",
-    "image": "/img/cessna_172.webp",
+    "image": "img/cessna_172.webp",
     "tags": [
       {
         "text": "NEW",

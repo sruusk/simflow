@@ -94,12 +94,12 @@
           {
             "title": "APU MASTER",
             "value": "ON",
-            "img": "/img/symbols/push_button.webp"
+            "img": "img/symbols/push_button.webp"
           },
           {
             "title": "APU",
             "value": "START",
-            "img": "/img/symbols/start.webp"
+            "img": "img/symbols/start.webp"
           }
         ]
       },
@@ -185,17 +185,17 @@
           {
             "title": "SPEED",
             "value": "AS REQUIRED",
-            "img": "/img/symbols/speed.webp"
+            "img": "img/symbols/speed.webp"
           },
           {
             "title": "HEADING",
             "value": "AS REQUIRED",
-            "img": "/img/symbols/heading.webp"
+            "img": "img/symbols/heading.webp"
           },
           {
             "title": "ALTITUDE",
             "value": "INIT CLIMB",
-            "img": "/img/symbols/altitude.webp"
+            "img": "img/symbols/altitude.webp"
           }
         ]
       },
@@ -231,17 +231,17 @@
           {
             "title": "OBTAIN IFR CLEARANCE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           },
           {
             "title": "FLIGHT PLAN REVIEWED",
             "value": "",
-            "img": "/img/symbols/flight_plan.webp"
+            "img": "img/symbols/flight_plan.webp"
           },
           {
             "title": "TAKE-OFF BRIEFING COMPLETE",
             "value": "",
-            "img": "/img/symbols/briefing.webp"
+            "img": "img/symbols/briefing.webp"
           }
         ]
       },
@@ -287,12 +287,12 @@
           {
             "title": "APU BLEED",
             "value": "ON",
-            "img": "/img/symbols/apu_bleed.webp"
+            "img": "img/symbols/apu_bleed.webp"
           },
           {
             "title": "EXTERNAL POWER",
             "value": "OFF",
-            "img": "/img/symbols/push_button.webp"
+            "img": "img/symbols/push_button.webp"
           }
         ]
       },
@@ -343,17 +343,17 @@
           {
             "title": "DOORS CLOSED",
             "value": "",
-            "img": "/img/symbols/doors.webp"
+            "img": "img/symbols/doors.webp"
           },
           {
             "title": "GROUND EQUIPMENT CLEAR",
             "value": "",
-            "img": "/img/symbols/stairs.webp"
+            "img": "img/symbols/stairs.webp"
           },
           {
             "title": "REQUEST PUSHBACK CLEARANCE",
             "value": "",
-            "img": "/img/symbols/pushback.webp"
+            "img": "img/symbols/pushback.webp"
           }
         ]
       }
@@ -374,7 +374,7 @@
           {
             "title": "ENGINE 2 MASTER",
             "value": "ON",
-            "img": "/img/symbols/lever.webp"
+            "img": "img/symbols/lever.webp"
           }
         ]
       },
@@ -390,7 +390,7 @@
           {
             "title": "ENGINE 1 MASTER",
             "value": "ON",
-            "img": "/img/symbols/lever.webp"
+            "img": "img/symbols/lever.webp"
           }
         ]
       },
@@ -486,12 +486,12 @@
           {
             "title": "REQUEST TAXI CLEARANCE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           },
           {
             "title": "PREPARE TOWER FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -572,12 +572,12 @@
           {
             "title": "REQUEST TAKE-OFF CLEARANCE",
             "value": "",
-            "img": "/img/symbols/airport.webp"
+            "img": "img/symbols/airport.webp"
           },
           {
             "title": "PREPARE DEPARTURE FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -648,7 +648,7 @@
           {
             "title": "PREPARE CENTER FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -669,7 +669,7 @@
           {
             "title": "SET BARO TO STD - 29.92 / 1013",
             "value": "",
-            "img": "/img/symbols/barometer.webp"
+            "img": "img/symbols/barometer.webp"
           }
         ]
       },
@@ -730,17 +730,17 @@
           {
             "title": "PREPARE ARRIVAL & LANDING PERF.",
             "value": "",
-            "img": "/img/symbols/arrival.webp"
+            "img": "img/symbols/arrival.webp"
           },
           {
             "title": "ARRIVAL TAXI ROUTE BRIEFED",
             "value": "",
-            "img": "/img/symbols/runway.webp"
+            "img": "img/symbols/runway.webp"
           },
           {
             "title": "PREPARE ARRIVAL FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -791,7 +791,7 @@
           {
             "title": "SET LOCAL QNH/QFE",
             "value": "",
-            "img": "/img/symbols/barometer.webp"
+            "img": "img/symbols/barometer.webp"
           }
         ]
       },
@@ -807,7 +807,7 @@
           {
             "title": "PREPARE TOWER FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -903,7 +903,7 @@
           {
             "title": "PREPARE GROUND FREQUENCY",
             "value": "",
-            "img": "/img/symbols/control_tower.webp"
+            "img": "img/symbols/control_tower.webp"
           }
         ]
       },
@@ -999,12 +999,12 @@
           {
             "title": "RUNWAY TURNOFF LIGHTS",
             "value": "OFF",
-            "img": "/img/symbols/light.webp"
+            "img": "img/symbols/light.webp"
           },
           {
             "title": "NOSEWHEEL LIGHTS",
             "value": "OFF",
-            "img": "/img/symbols/light.webp"
+            "img": "img/symbols/light.webp"
           }
         ]
       }
@@ -1065,12 +1065,12 @@
           {
             "title": "REQUEST JETWAY/STAIRS",
             "value": "",
-            "img": "/img/symbols/jetway.webp"
+            "img": "img/symbols/jetway.webp"
           },
           {
             "title": "OPEN DOORS",
             "value": "",
-            "img": "/img/symbols/doors.webp"
+            "img": "img/symbols/doors.webp"
           }
         ]
       },
