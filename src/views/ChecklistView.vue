@@ -1,6 +1,13 @@
 <template>
   <main>
     <Checklist :checklist="aircraftStore.currentChecklist" />
+    <div
+      class="flex-center"
+      style="padding: 20px 0 40px 0"
+      @click="$router.push({ name: 'home' })"
+    >
+      <div class="button return-button">Return</div>
+    </div>
   </main>
 </template>
 
@@ -23,5 +30,10 @@ export default defineComponent({
 <style scoped>
 main {
   width: 100%;
+}
+.return-button{
+    padding: 9px 40px;
+    font-size: 16px;
+    font-weight: 700;
 }
 </style>
