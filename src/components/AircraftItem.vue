@@ -1,6 +1,6 @@
 <template>
   <div class="round-container main">
-    <div :style="`background-image: url(${ import.meta.env.BASE_URL }${ aircraft.image })`" class="image-container">
+    <div :style="`background-image: url(${ basePath }${ aircraft.image })`" class="image-container">
       <div class="tags">
         <div
           v-for="tag in aircraft.tags" :key="tag.text" :style="{'background-color': tag.color}"
@@ -19,6 +19,8 @@
 </template>
 
 <script>
+const basePath = import.meta.env.BASE_URL;
+
 export default {
   name: "AircraftItem",
   props: {
@@ -27,6 +29,7 @@ export default {
   data() {
     return {
       checklist: {},
+      basePath
     };
   },
 };

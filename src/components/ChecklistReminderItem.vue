@@ -3,7 +3,7 @@
     <h3>{{ item.title }}</h3>
     <div v-for="row in item.value" :key="row" class="row">
       <div class="left">
-        <img :src="`${ import.meta.env.BASE_URL }${ row.img }`" alt="">
+        <img :src="`${ basePath }${ row.img }`" alt="">
         <p>{{ row.title }}</p>
       </div>
       <div class="right">
@@ -14,6 +14,8 @@
 </template>
 
 <script>
+const basePath = import.meta.env.BASE_URL;
+
 export default {
   name: "ChecklistReminderItem",
   props: {
@@ -21,6 +23,11 @@ export default {
       type: Object,
       required: true
     }
+  },
+  data() {
+    return {
+      basePath
+    };
   },
 };
 </script>
