@@ -2,8 +2,10 @@
   <div class="round-container main">
     <div :style="`background-image: url(${aircraft.image})`" class="image-container">
       <div class="tags">
-        <div v-for="tag in aircraft.tags" :key="tag.text" :style="{'background-color': tag.color}"
-             class="tag round-container">
+        <div
+          v-for="tag in aircraft.tags" :key="tag.text" :style="{'background-color': tag.color}"
+          class="tag round-container"
+        >
           {{ tag.text }}
         </div>
       </div>
@@ -27,7 +29,7 @@ export default {
       checklist: {},
     };
   },
-}
+};
 </script>
 
 <style scoped>

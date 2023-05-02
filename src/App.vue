@@ -1,63 +1,26 @@
 <template>
-  <header @click="this.selectedChecklist = null">
-    <img :class="{ logoSmall: this.selectedChecklist, 'logo': !this.selectedChecklist }" alt="Simflow logo"
-         src="@/assets/img/logo.webp"/>
-    <Transition>
-      <div v-if="this.selectedChecklist" class="button return-button">Return</div>
+  <header @click="$router.push({ name: 'home' })">
+    <Transition name="spacer">
+      <div v-if="showReturn" />
+    </Transition>
+    <img
+      :class="{ logoSmall: showReturn, 'logo': !showReturn }" alt="Simflow logo"
+      src="@/assets/img/logo.webp"
+    >
+    <Transition name="return">
+      <div v-if="showReturn" class="button return-button">Return</div>
     </Transition>
   </header>
-
-  <main v-if="!selectedChecklist" class="flex-center flex-vertical">
-    <div class="flex-center flex-wrap">
-      <AircraftItem v-for="aircraftItem in aircraft" :key="aircraftItem" :aircraft="aircraftItem"
-                    @click="this.showChecklist(aircraftItem)"/>
-    </div>
-    <ContributeBox/>
-  </main>
-
-  <main v-else>
-    <Checklist :checklist="selectedChecklist"/>
-  </main>
+  <RouterView />
 </template>
 
 <script>
-import AircraftItem from "@/components/AircraftItem.vue";
-import ContributeBox from "@/components/ContributeBox.vue";
-import Checklist from "@/components/Checklist.vue";
-import aircraftList from "@/assets/aircraft.json";
 
 export default {
   name: "App",
-  components: {
-    AircraftItem,
-    ContributeBox,
-    Checklist,
-  },
-  data() {
-    return {
-      aircraft: aircraftList,
-      selectedAircraft: null,
-      selectedChecklist: null,
-    }
-  },
-  watch: {
-    selectedChecklist: function () {
-      if (this.selectedChecklist) {
-        this.$router.push(`${this.selectedAircraft.checklist.replace('.json', '')}`);
-      } else {
-        this.$router.push('/');
-        this.selectedAircraft = null;
-      }
-    }
-  },
-  methods: {
-    showChecklist(aircraft) {
-      this.selectedAircraft = aircraft;
-      fetch(aircraft.checklist)
-        .then(response => response.json())
-        .then(data => {
-          this.selectedChecklist = data;
-        });
+  computed: {
+    showReturn() {
+      return !!this.$route.params.aircraft;
     }
   }
 };
@@ -118,14 +81,6 @@ body {
 </style>
 
 <style scoped>
-:deep(.ps__rail-y) {
-  background-color: #28324d;
-  border-radius: 10px;
-}
-
-main {
-  width: 100%;
-}
 
 header {
   padding: 60px 0;
@@ -143,17 +98,32 @@ header {
 .logoSmall{
   width: 200px;
   height: 41px;
-  transition: transform 0.5s, width 0.5s, height 0.5s ease-in-out;
+  transition: transform 0.5s, width 0.5s, height 0.3s ease-in-out;
 }
 
-.v-enter-active,
-.v-leave-active {
+.spacer-enter-active,
+.spacer-leave-active {
+  transition: width 0.5s ease;
+}
+
+.spacer-enter-from,
+.spacer-leave-to {
+  width: 238px; /* This is the width of the return button plus the margin */
+}
+
+.spacer-enter-to,
+.spacer-leave-from {
+  width: 0;
+}
+
+.return-enter-active,
+.return-leave-active {
   transition: transform 0.5s ease;
 }
 
-.v-enter-from,
-.v-leave-to {
-  transform: translateX(100px) scale(0);
+.return-enter-from,
+.return-leave-to {
+  transform: scale(0);
 }
 
 .return-button{

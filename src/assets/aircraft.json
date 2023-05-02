@@ -9,8 +9,7 @@
         "color": "#00205b"
       }
     ],
-    "description": "Full checklist for normal operations of the Airbus A310. Includes flows and reminders for online procedures.",
-    "checklist": "/aircraft/a310.json"
+    "description": "Full checklist for normal operations of the Airbus A310. Includes flows and reminders for online procedures."
   },
   {
     "manufacturer": "Airbus",
@@ -22,8 +21,7 @@
         "color": "#00205b"
       }
     ],
-    "description": "Full checklist for normal operations of the Airbus A320. Includes flows and reminders for online procedures.",
-    "checklist": "/aircraft/a320.json"
+    "description": "Full checklist for normal operations of the Airbus A320. Includes flows and reminders for online procedures."
   },
   {
     "manufacturer": "Boeing",
@@ -35,8 +33,7 @@
         "color": "#0039a6"
       }
     ],
-    "description": "Full checklist for normal operations of the Boeing 737. Includes flows and reminders for online procedures.",
-    "checklist": "/aircraft/737.json"
+    "description": "Full checklist for normal operations of the Boeing 737. Includes flows and reminders for online procedures."
   },
   {
     "manufacturer": "Bombardier",
@@ -52,8 +49,7 @@
         "color": "#00205b"
       }
     ],
-    "description": "Full checklist for normal operations of the Bombardier CRJ-700. Includes flows and reminders for online procedures.",
-    "checklist": "/aircraft/crj-700.json"
+    "description": "Full checklist for normal operations of the Bombardier CRJ-700. Includes flows and reminders for online procedures."
   },
   {
     "manufacturer": "Cessna",
@@ -69,7 +65,6 @@
         "color": "#00205b"
       }
     ],
-    "description": "Full checklist for normal operations of the Cessna 172. Includes flows and reminders for online procedures.",
-    "checklist": "/aircraft/c172.json"
+    "description": "Full checklist for normal operations of the Cessna 172. Includes flows and reminders for online procedures."
   }
 ]

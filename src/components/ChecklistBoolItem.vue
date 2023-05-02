@@ -1,9 +1,9 @@
 <template>
-  <div class="main" @click="this.toggleCheck">
-    <h3>{{ this.item.title }}</h3>
+  <div class="main" @click="toggleCheck">
+    <h3>{{ item.title }}</h3>
     <div class="check">
-      <p>{{ this.item.value }}</p>
-      <div class="check-icon"/>
+      <p>{{ item.value }}</p>
+      <div class="check-icon" :class="{ 'checked': checked }" />
     </div>
   </div>
 </template>
@@ -12,26 +12,29 @@
 export default {
   name: "ChecklistBoolItem",
   props: {
-    item: Object,
+    item: {
+      type: Object,
+      required: true
+    },
     isTicked: Boolean
   },
   emits: ['update:isTicked'],
   data() {
     return {
       checked: false
-    }
+    };
   },
   watch: {
     checked: function () {
-      this.$emit('update:isTicked', this.checked)
+      this.$emit('update:isTicked', this.checked);
     }
   },
   methods: {
-    toggleCheck(event) {
-      this.checked = event.target.parentElement.querySelector(".check-icon").classList.toggle("checked");
+    toggleCheck() {
+      this.checked = !this.checked;
     }
   }
-}
+};
 </script>
 
 <style scoped>

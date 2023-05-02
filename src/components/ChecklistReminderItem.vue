@@ -1,9 +1,9 @@
 <template>
   <div class="main">
-    <h3>{{ this.item.title }}</h3>
-    <div v-for="row in this.item.value" :key="row" class="row">
+    <h3>{{ item.title }}</h3>
+    <div v-for="row in item.value" :key="row" class="row">
       <div class="left">
-        <img :src="row.img"/>
+        <img :src="row.img">
         <p>{{ row.title }}</p>
       </div>
       <div class="right">
@@ -17,9 +17,12 @@
 export default {
   name: "ChecklistReminderItem",
   props: {
-    item: Object
+    item: {
+      type: Object,
+      required: true
+    }
   },
-}
+};
 </script>
 
 <style scoped>

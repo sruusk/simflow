@@ -1,14 +1,31 @@
 <template>
   <div class="flex-center flex-vertical">
-    <div v-for="list in checklist" :key="list" class="round-container">
+    <div
+      v-for="list in checklist"
+      :key="list"
+      class="round-container"
+    >
       <h2>{{ list.title }}</h2>
-      <div v-for="item in list.items" :key="item" class="checklist-item">
-        <ChecklistBoolItem v-if="item.type === 'bool'" :item="item"/>
-        <ChecklistReminderItem v-else-if="item.type === 'reminder'" :item="item"/>
+      <div
+        v-for="item in list.items"
+        :key="item"
+        class="checklist-item"
+      >
+        <ChecklistBoolItem
+          v-if="item.type === 'bool'"
+          :item="item"
+        />
+        <ChecklistReminderItem
+          v-else-if="item.type === 'reminder'"
+          :item="item"
+        />
       </div>
       <div class="checklist-complete">
         <h3>{{ list.title }}</h3>
-        <div class="button checklist-complete-button" @click="this.scrollToNext">
+        <div
+          class="button checklist-complete-button"
+          @click="scrollToNext"
+        >
           COMPLETE
         </div>
       </div>
@@ -17,27 +34,30 @@
 </template>
 
 <script>
-import ChecklistBoolItem from './ChecklistBoolItem.vue'
+import ChecklistBoolItem from './ChecklistBoolItem.vue';
 import ChecklistReminderItem from "@/components/ChecklistReminderItem.vue";
 
 export default {
   name: "ChecklistView",
-  props: {
-    checklist: Object
-  },
   components: {
     ChecklistBoolItem,
     ChecklistReminderItem
   },
+  props: {
+    checklist: {
+      type: Object,
+      required: true
+    }
+  },
   methods: {
     scrollToNext(event) {
-      let next = event.target.parentElement.parentElement.nextElementSibling;
+      const next = event.target.parentElement.parentElement.nextElementSibling;
       if (next) {
         next.scrollIntoView({behavior: 'smooth'});
       }
     }
   }
-}
+};
 </script>
 
 <style scoped>

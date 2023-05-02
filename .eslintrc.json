@@ -1,0 +1,62 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "plugins": [
+    "vue"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "noInlineConfig": false,
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": "off",
+    "no-dupe-else-if": [
+      "error"
+    ],
+    "eqeqeq": [
+      "error",
+      "always"
+    ],
+    "no-implicit-globals": "error",
+    "no-redeclare": "error",
+    "no-promise-executor-return": "error",
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "camelcase": "error",
+    "arrow-spacing": "warn",
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-unreachable": "error",
+    "complexity": [
+      "warn",
+      25
+    ],
+    "no-invalid-this": "warn",
+    "no-multi-spaces": "warn",
+    "no-self-assign": "warn",
+    "require-await": "warn",
+    "no-shadow": "warn",
+    "comma-spacing": "warn",
+    "max-lines-per-function": [
+      "warn",
+      100
+    ],
+    "prefer-object-spread": "warn",
+    "prefer-template": "warn",
+    "vue/max-attributes-per-line": "off",
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/multiline-html-element-content-newline": "off"
+  }
+}

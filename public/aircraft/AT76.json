@@ -1,0 +1,374 @@
+[
+  {
+    "title": "PRE-FLIGHT",
+    "items": [
+      {
+        "title": "Cockpit Preparations",
+        "type": "bool",
+        "value": "Completed"
+      },
+      {
+        "title": "Gear Lever",
+        "type": "bool",
+        "value": "Down"
+      },
+      {
+        "title": "Parking Brake",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "Battery",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "External Power",
+        "type": "bool",
+        "value": "AVAIL & SET ON"
+      },
+      {
+        "title": "NAV Lights",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Warning Systems",
+        "type": "bool",
+        "value": "Tested"
+      },
+      {
+        "title": "Gust Lock",
+        "type": "bool",
+        "value": "Engaged"
+      },
+      {
+        "title": "Prop Brake",
+        "type": "bool",
+        "value": "On & Guarded"
+      },
+      {
+        "title": "No Smoking Signs",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Seatbelt Signs",
+        "type": "bool",
+        "value": "As Required"
+      },
+      {
+        "title": "Emergency Exit Lights",
+        "type": "bool",
+        "value": "ARM"
+      },
+      {
+        "title": "Windshield Anti-Ice",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "SET FMC",
+            "value": "",
+            "img": "/img/symbols/flight_plan.webp"
+          },
+          {
+            "title": "Obtain Clearance",
+            "value": "",
+            "img": "/img/symbols/airport.webp"
+          }
+        ]
+      },
+      {
+        "title": "Altimeter",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "Beacon Lights",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Fuel Pump 2",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Engine 2 Hotel Mode",
+        "type": "bool",
+        "value": "Start & Perform"
+      },
+      {
+        "title": "Hydraulic Power",
+        "type": "bool",
+        "value": "Blue + Green LO PR"
+      },
+      {
+        "title": "Oxygen",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "DEPARTURE – BRIEFED & CHECKED",
+            "value": "",
+            "img": "/img/symbols/briefing.webp"
+          }
+        ]
+      },
+      {
+        "title": "Takeoff Data",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "FCP",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "Fuel Pump 1",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Fuel Quantities",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "Landing Elevation",
+        "type": "bool",
+        "value": "SET/AUTO"
+      },
+      {
+        "title": "Seatbelt Signs",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Fuel Used",
+        "type": "bool",
+        "value": "RESET"
+      },
+      {
+        "title": "Probes / De-Ice",
+        "type": "bool",
+        "value": "No White Lights"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE START",
+    "items": [
+      {
+        "title": "Power Management",
+        "type": "bool",
+        "value": "Set TO"
+      },
+      {
+        "title": "Flight Directors",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "Radios",
+        "type": "bool",
+        "value": "Frequencies SET"
+      },
+      {
+        "title": "Trims",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "Transponder",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "Gust Lock",
+        "type": "bool",
+        "value": "RELEASE"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Doors Closed / Equipment Clear",
+            "value": "",
+            "img": "/img/symbols/doors.webp"
+          },
+          {
+            "title": "Chocks Removed",
+            "value": "",
+            "img": "/img/symbols/switch.webp"
+          },
+          {
+            "title": "REQUEST PUSH & START CLEARANCE",
+            "value": "",
+            "img": "/img/symbols/airport.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "ENGINE START",
+    "items": [
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "CLEAR BOTH SIDES",
+            "value": "",
+            "img": "/img/symbols/switch.webp"
+          }
+        ]
+      },
+      {
+        "title": "DC External Power",
+        "value": "OFF & Disconnected",
+        "type": "bool"
+      },
+      {
+        "title": "BEGIN PUSHBACK & ENGINE START",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "ENG Prop Brake",
+            "value": "OFF & GUARDED",
+            "img": "/img/symbols/switch.webp"
+          },
+          {
+            "title": "Start Selector Mode",
+            "value": "START A & B",
+            "img": "/img/symbols/loading.webp"
+          },
+          {
+            "title": "ENG 2",
+            "value": "ROTATE",
+            "img": "/img/symbols/start.webp"
+          },
+          {
+            "title": "ENG 2 Condition",
+            "value": "AUTO",
+            "img": "/img/symbols/lever.webp"
+          },
+          {
+            "title": "GEN 2",
+            "value": "ON",
+            "img": "/img/symbols/push_button.webp"
+          }
+        ]
+      },
+      {
+        "title":"Hydraulic Power",
+        "value":"No Lights",
+        "type": "bool"
+      },
+      {
+        "title":"Flaps",
+        "value":"SET for Takeoff",
+        "type": "bool"
+      },
+      {
+        "title":"Anti-Skid",
+        "value":"TEST",
+        "type": "bool"
+      },
+      {
+        "title":"Flight Controls",
+        "value":"Full & Free",
+        "type": "bool"
+      },
+      {
+        "title":"Autopilot",
+        "value":"SET & OFF",
+        "type": "bool"
+      },
+      {
+        "title":"",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "REQUEST TAXI CLEARANCE",
+            "value": "",
+            "img": "/img/symbols/airport.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "TAXI",
+    "items": [
+      {
+        "title": "Taxi & NAV Lights",
+        "value": "ON",
+        "type": "bool"
+      },
+      {
+        "title": "Wing/Logo Lights",
+        "value": "As Required",
+        "type": "bool"
+      },
+      {
+        "title": "De/Anti-Ice",
+        "value":"As Required",
+        "type":"bool"
+      },
+      {
+        "title": "",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "ENG 1",
+            "value": "START",
+            "img": "/img/symbols/start.webp"
+          },
+          {
+            "title": "ENG1 Condition",
+            "value": "AUTO",
+            "img": "/img/symbols/lever.webp"
+          }
+        ]
+      },
+      {
+        "title":"Bleeds",
+        "value":"As Required",
+        "type":"bool"
+      },
+      {
+        "title":"AC Wild ELEC Pwr",
+        "value":"No White Lights",
+        "type":"bool"
+      },
+      {
+        "title":"Engine Instruments",
+        "value":"Checked",
+        "type":"bool"
+      },
+      {
+        "title":"Pitot Heat",
+        "value":"ON",
+        "type":"bool"
+      },
+      {
+        "title":"Start Selector Mode",
+        "value":"OFF & ABORT",
+        "type":"bool"
+      }
+    ]
+  }
+]
