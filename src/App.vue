@@ -4,7 +4,8 @@
       <div v-if="showReturn" />
     </Transition>
     <img
-      :class="{ logoSmall: showReturn, 'logo': !showReturn }" alt="Simflow logo"
+      class="logo"
+      :class="{ logoSmall: showReturn }" alt="Simflow logo"
       src="@/assets/img/logo.webp"
     >
     <Transition name="return">
@@ -20,8 +21,9 @@ export default {
   name: "App",
   computed: {
     showReturn() {
-      return !!this.$route.params.aircraft;
-    }
+      // Show return button only if we are on the aircraft page and the screen is wide enough
+      return !!this.$route.params.aircraft && window.innerWidth > 440;
+    },
   }
 };
 </script>
@@ -90,15 +92,13 @@ header {
 }
 
 .logo {
-  height: 88px;
   width: 427px;
-  transition: all 0.5s ease, transform 0.5s;
+  max-width: 70%;
+  transition: all 0.5s ease-in-out;
 }
 
 .logoSmall{
   width: 200px;
-  height: 41px;
-  transition: transform 0.5s, width 0.5s, height 0.3s ease-in-out;
 }
 
 .spacer-enter-active,
