@@ -7,6 +7,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: process.env.BASE_PATH || '/',
     plugins: [vue(), VitePWA({
         base: process.env.BASE_PATH || '/',
         srcDir: 'src',
@@ -47,5 +48,5 @@ export default defineConfig({
     },
     build: {
         sourcemap: true
-    }
+    },
 })
