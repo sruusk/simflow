@@ -1,6 +1,6 @@
 <template>
   <div class="round-container main">
-    <div :style="`background-image: url(${aircraft.image})`" class="image-container">
+    <div :style="`background-image: url(${ import.meta.env.BASE_URL }${ aircraft.image })`" class="image-container">
       <div class="tags">
         <div
           v-for="tag in aircraft.tags" :key="tag.text" :style="{'background-color': tag.color}"

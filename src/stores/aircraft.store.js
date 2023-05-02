@@ -11,7 +11,7 @@ export const useAircraftStore = defineStore({
 
     actions: {
         getChecklist(aircraft) {
-            return fetch(`/aircraft/${ aircraft }.json`)
+            return fetch(`${ import.meta.env.BASE_URL }aircraft/${ aircraft }.json`)
                 .then(res => res.json())
                 .then(data => {
                     this.currentChecklist = data;

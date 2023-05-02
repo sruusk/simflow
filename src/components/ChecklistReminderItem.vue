@@ -3,7 +3,7 @@
     <h3>{{ item.title }}</h3>
     <div v-for="row in item.value" :key="row" class="row">
       <div class="left">
-        <img :src="row.img">
+        <img :src="`${ import.meta.env.BASE_URL }${ row.img }`" alt="">
         <p>{{ row.title }}</p>
       </div>
       <div class="right">
