@@ -329,7 +329,7 @@
         "type":"bool"
       },
       {
-        "title": "",
+        "title": "ENGINE 1 START",
         "type": "reminder",
         "value": [
           {
@@ -368,6 +368,442 @@
         "title":"Start Selector Mode",
         "value":"OFF & ABORT",
         "type":"bool"
+      }
+    ]
+  },
+  {
+    "title": "PRE-DEPARTURE",
+    "items": [
+      {
+        "title": "Takeoff Config",
+        "value": "Checked",
+        "type": "bool"
+      },
+      {
+        "title": "Power Management",
+        "value": "Set TO",
+        "type": "bool"
+      },
+      {
+        "title": "Speeds",
+        "value": "Set",
+        "type": "bool"
+      },
+      {
+        "title": "FCP/Nav Data/Radios",
+        "value": "Set",
+        "type": "bool"
+      },
+      {
+        "title": "Fuel Quantities",
+        "value": "Checked",
+        "type": "bool"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Takeoff Config",
+            "value": "Checked",
+            "img": "img/symbols/briefing.webp"
+          },
+          {
+            "title": "Fuel Quantities",
+            "value": "Checked",
+            "img": "img/symbols/speed.webp"
+          },
+          {
+            "title": "Annunciator Lights",
+            "value": "Checked",
+            "img": "img/symbols/bulb.webp"
+          }
+        ]
+      },
+      {
+        "title": "Idle Gate",
+        "value": "FLIGHT",
+        "type": "bool"
+      },
+      {
+        "title": "",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Obtain Takeoff Clearance",
+            "value": "",
+            "img": "img/symbols/control_tower.webp"
+          },
+          {
+            "title": "Alert Cabin Crew",
+            "value": "",
+            "img": "img/symbols/push_button.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "TAKEOFF",
+    "items": [
+      {
+        "title": "Strobes",
+        "value": "ON",
+        "type": "bool"
+      },
+      {
+        "title": "Taxi Lights",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Landing Lights",
+        "value": "ON",
+        "type": "bool"
+      },
+      {
+        "title": "Transponder",
+        "value": "Set ALT",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "title": "AFTER TAKEOFF",
+    "items": [
+      {
+        "title": "Positive Rate",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Touch Brakes",
+            "value": "",
+            "img": "img/symbols/loading.webp"
+          },
+          {
+            "title": "GEAR UP",
+            "value": "",
+            "img": "img/symbols/lever.webp"
+          }
+        ]
+      },
+      {
+        "title": "Gear",
+        "value": "UP - Lights OUT",
+        "type": "bool"
+      },
+      {
+        "title": "Flaps/Slats",
+        "value": "Retracted",
+        "type": "bool"
+      },
+      {
+        "title": "Power Management",
+        "value": "Set CLB",
+        "type": "bool"
+      },
+      {
+        "title": "Yaw Damper",
+        "value": "ON",
+        "type": "bool"
+      },
+      {
+        "title": "Autopilot",
+        "value": "ON",
+        "type": "bool"
+      },
+      {
+        "title": "Annunciator Lights",
+        "value": "Checked",
+        "type": "bool"
+      },
+      {
+        "title": "Passing Transition Altitude",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Altimeter",
+            "value": "Set STD",
+            "img": "img/symbols/barometer.webp"
+          }
+        ]
+      },
+      {
+        "title": "Passing 10,000 ft",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Landing Lights",
+            "value": "OFF",
+            "img": "img/symbols/light.webp"
+          },
+          {
+            "title": "Seatbelt Signs",
+            "value": "As Required",
+            "img": "img/symbols/push_button.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "CRUISE",
+    "items": [
+      {
+        "title": "Power Management",
+        "value": "Set CRZ",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "title": "DESCENT",
+    "items": [
+      {
+        "title": "Arrival Data",
+        "value": "Set",
+        "type": "bool"
+      },
+      {
+        "title": "Wing / Engine Anti-Ice",
+        "value": "As Required",
+        "type": "bool"
+      },
+      {
+        "title": "FCP",
+        "value": "As Required",
+        "type": "bool"
+      },
+      {
+        "title": "Minimums",
+        "value": "Set",
+        "type": "bool"
+      },
+      {
+        "title": "Below Transition Level",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Altimeter",
+            "value": "Set QNH",
+            "img": "img/symbols/barometer.webp"
+          }
+        ]
+      },
+      {
+        "title": "Below 10,000 ft",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Landing Lights",
+            "value": "ON",
+            "img": "img/symbols/light.webp"
+          },
+          {
+            "title": "Seatbelt Signs",
+            "value": "ON",
+            "img": "img/symbols/push_button.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "APPROACH",
+    "items": [
+      {
+        "title": "ILS/VOR/NDB Frequencies",
+        "value": "CHECK",
+        "type": "bool"
+      },
+      {
+        "title": "Power Management",
+        "value": "Set TO",
+        "type": "bool"
+      },
+      {
+        "title": "APP Mode",
+        "value": "ARM",
+        "type": "bool"
+      },
+      {
+        "title": "Glideslope Alive",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Gear",
+            "value": "DOWN",
+            "img": "img/symbols/lever.webp"
+          }
+        ]
+      },
+      {
+        "title": "Flaps",
+        "value": "As Required",
+        "type": "bool"
+      },
+      {
+        "title": "Go Around Altitude",
+        "value": "SET",
+        "type": "bool"
+      },
+      {
+        "title": "Parking Brake",
+        "value": "Check OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Autopilot",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Yaw Damper",
+        "value": "OFF",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "title": "AFTER LANDING",
+    "items": [
+      {
+        "title": "Flaps",
+        "value": "Retracted",
+        "type": "bool"
+      },
+      {
+        "title": "Transponder",
+        "value": "As Required",
+        "type": "bool"
+      },
+      {
+        "title": "Landing Lights",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Strobe Lights",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Taxi Lights",
+        "value": "ON",
+        "type": "bool"
+      },
+      {
+        "title": "Anti-Ice",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Trims",
+        "value": "RESET",
+        "type": "bool"
+      },
+      {
+        "title": "Pitot Heat",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Idle Gate",
+        "value": "GROUND",
+        "type": "bool"
+      },
+      {
+        "title": "After min. 1 minute",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "ENG1 Condition",
+            "value": "FTR",
+            "img": "img/symbols/lever.webp"
+          }
+        ]
+      },
+      {
+        "title": "After 30 seconds",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "ENG1 Condition",
+            "value": "CUTOFF",
+            "img": "img/symbols/lever.webp"
+          }
+        ]
+      },
+      {
+        "title": "Gate Arrival",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "Taxi Lights",
+            "value": "OFF",
+            "img": "img/symbols/light.webp"
+          },
+          {
+            "title": "Parking Brake",
+            "value": "SET",
+            "img": "img/symbols/lever.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SHUTDOWN",
+    "items": [
+      {
+        "title": "Gust Lock",
+        "value": "ENGAGE",
+        "type": "bool"
+      },
+      {
+        "title": "ENG2 Condition",
+        "value": "FTR",
+        "type": "bool"
+      },
+      {
+        "title": "PROP Brake",
+        "value": "ON",
+        "type": "bool"
+      },
+      {
+        "title": "Beacon Lights",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "External Power",
+        "value": "ON",
+        "type": "bool"
+      },
+      {
+        "title": "Seatbelt Signs",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "ENG2 Condition",
+        "value": "CUTOFF",
+        "type": "bool"
+      },
+      {
+        "title": "Fuel Pumps",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Oxygen",
+        "value": "OFF",
+        "type": "bool"
+      },
+      {
+        "title": "Flight Directors",
+        "value": "OFF",
+        "type": "bool"
       }
     ]
   }
