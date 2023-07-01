@@ -52,8 +52,8 @@ export default {
   methods: {
     scrollToNext(event) {
       const next = event.target.parentElement.parentElement.nextElementSibling;
-      if (next) {
-        next.scrollIntoView({behavior: 'smooth'});
+      if(next) {
+        next.scrollIntoView({ behavior: 'smooth' });
       }
     }
   }

@@ -3,7 +3,7 @@
     <h3>{{ item.title }}</h3>
     <div class="check">
       <p>{{ item.value }}</p>
-      <div class="check-icon" :class="{ 'checked': checked }" />
+      <div :class="{ 'checked': checked }" class="check-icon"/>
     </div>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
     };
   },
   watch: {
-    checked: function () {
+    checked: function() {
       this.$emit('update:isTicked', this.checked);
     }
   },

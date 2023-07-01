@@ -1,22 +1,21 @@
 <template>
   <header @click="$router.push({ name: 'home' })">
     <Transition name="spacer">
-      <div v-if="showReturn" />
+      <div v-if="showReturn"/>
     </Transition>
     <img
-      class="logo"
-      :class="{ logoSmall: showReturn }" alt="Simflow logo"
+      :class="{ logoSmall: showReturn }"
+      alt="Simflow logo" class="logo"
       src="@/assets/img/logo.webp"
     >
     <Transition name="return">
       <div v-if="showReturn" class="button return-button">Return</div>
     </Transition>
   </header>
-  <RouterView />
+  <RouterView/>
 </template>
 
 <script>
-
 export default {
   name: "App",
   computed: {
@@ -28,6 +27,7 @@ export default {
 };
 </script>
 
+<!--suppress CssUnusedSymbol -->
 <style>
 /*noinspection CssUnknownTarget*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -82,6 +82,7 @@ body {
 }
 </style>
 
+<!--suppress CssUnusedSymbol -->
 <style scoped>
 
 header {
@@ -97,23 +98,23 @@ header {
   transition: all 0.5s ease-in-out;
 }
 
-.logoSmall{
+.logoSmall {
   width: 200px;
 }
 
 .spacer-enter-active,
 .spacer-leave-active {
-  transition: width 0.5s ease;
+  transition: min-width 0.5s ease;
 }
 
 .spacer-enter-from,
 .spacer-leave-to {
-  width: 238px; /* This is the width of the return button plus the margin */
+  min-width: 238px; /* This is the width of the return button plus the margin */
 }
 
 .spacer-enter-to,
 .spacer-leave-from {
-  width: 0;
+  min-width: 0;
 }
 
 .return-enter-active,
@@ -126,7 +127,7 @@ header {
   transform: scale(0);
 }
 
-.return-button{
+.return-button {
   margin-left: 100px;
   padding: 9px 40px;
   font-size: 16px;

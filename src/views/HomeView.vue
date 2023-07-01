@@ -6,7 +6,7 @@
         @click="$router.push({ name: 'aircraft', params: { aircraft: aircraftItem.type } })"
       />
     </div>
-    <ContributeBox />
+    <ContributeBox/>
   </main>
 </template>
 
@@ -18,20 +18,20 @@ import ContributeBox from "@/components/ContributeBox.vue";
 import { useAircraftStore } from "@/stores";
 
 export default defineComponent({
-    name: "HomeView",
-    components: {
-        ContributeBox,
-        AircraftItem
-    },
-    setup() {
-        const aircraftStore = useAircraftStore();
-        return { aircraftStore };
-    },
+  name: "HomeView",
+  components: {
+    ContributeBox,
+    AircraftItem
+  },
+  setup() {
+    const aircraftStore = useAircraftStore();
+    return { aircraftStore };
+  },
 });
 </script>
 
 <style scoped>
 main {
-    width: 100%;
+  width: 100%;
 }
 </style>

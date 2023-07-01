@@ -57,6 +57,14 @@
     "prefer-template": "warn",
     "vue/max-attributes-per-line": "off",
     "vue/singleline-html-element-content-newline": "off",
-    "vue/multiline-html-element-content-newline": "off"
+    "vue/multiline-html-element-content-newline": "off",
+    "vue/html-closing-bracket-spacing": [
+      "warn",
+      {
+        "startTag": "never",
+        "endTag": "never",
+        "selfClosingTag": "never"
+      }
+    ]
   }
 }

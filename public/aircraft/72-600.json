@@ -273,32 +273,32 @@
         ]
       },
       {
-        "title":"Hydraulic Power",
-        "value":"No Lights",
+        "title": "Hydraulic Power",
+        "value": "No Lights",
         "type": "bool"
       },
       {
-        "title":"Flaps",
-        "value":"SET for Takeoff",
+        "title": "Flaps",
+        "value": "SET for Takeoff",
         "type": "bool"
       },
       {
-        "title":"Anti-Skid",
-        "value":"TEST",
+        "title": "Anti-Skid",
+        "value": "TEST",
         "type": "bool"
       },
       {
-        "title":"Flight Controls",
-        "value":"Full & Free",
+        "title": "Flight Controls",
+        "value": "Full & Free",
         "type": "bool"
       },
       {
-        "title":"Autopilot",
-        "value":"SET & OFF",
+        "title": "Autopilot",
+        "value": "SET & OFF",
         "type": "bool"
       },
       {
-        "title":"",
+        "title": "",
         "type": "reminder",
         "value": [
           {
@@ -325,8 +325,8 @@
       },
       {
         "title": "De/Anti-Ice",
-        "value":"As Required",
-        "type":"bool"
+        "value": "As Required",
+        "type": "bool"
       },
       {
         "title": "ENGINE 1 START",
@@ -345,29 +345,29 @@
         ]
       },
       {
-        "title":"Bleeds",
-        "value":"As Required",
-        "type":"bool"
+        "title": "Bleeds",
+        "value": "As Required",
+        "type": "bool"
       },
       {
-        "title":"AC Wild ELEC Pwr",
-        "value":"No White Lights",
-        "type":"bool"
+        "title": "AC Wild ELEC Pwr",
+        "value": "No White Lights",
+        "type": "bool"
       },
       {
-        "title":"Engine Instruments",
-        "value":"Checked",
-        "type":"bool"
+        "title": "Engine Instruments",
+        "value": "Checked",
+        "type": "bool"
       },
       {
-        "title":"Pitot Heat",
-        "value":"ON",
-        "type":"bool"
+        "title": "Pitot Heat",
+        "value": "ON",
+        "type": "bool"
       },
       {
-        "title":"Start Selector Mode",
-        "value":"OFF & ABORT",
-        "type":"bool"
+        "title": "Start Selector Mode",
+        "value": "OFF & ABORT",
+        "type": "bool"
       }
     ]
   },
