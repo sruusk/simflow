@@ -25,7 +25,7 @@
   },
   {
     "manufacturer": "Airbus",
-    "type": "A320",
+    "type": "A320-normal",
     "image": "img/airbus_a320.webp",
     "tags": [
       {

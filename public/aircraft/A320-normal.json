@@ -88,7 +88,7 @@
         "value": "AS REQ."
       },
       {
-        "title": "YELLOW ELECTRIC PUMP",
+        "title": "YELLOW ELEC PUMP",
         "type": "bool",
         "value": "AS REQ."
       },
@@ -280,13 +280,12 @@
       {
         "title": "IF ENG2 SHUTDOWN",
         "type": "reminder",
-        "value": [
-          {
-            "title": "YELLOW ELEC PUMP",
-            "value": "OFF",
-            "img": ""
-          }
-        ]
+        "value": []
+      },
+      {
+        "title": "YELLOW ELEC PUMP",
+        "type": "bool",
+        "value": "OFF"
       }
     ]
   },
