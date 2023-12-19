@@ -1,0 +1,328 @@
+[
+  {
+    "title": "BEFORE START",
+    "items": [
+      {
+        "title": "COCKPIT PREPARATION",
+        "type": "bool",
+        "value": "COMPLETED"
+      },
+      {
+        "title": "BARO",
+        "type": "bool",
+        "value": "SET QNH/INHG"
+      },
+      {
+        "title": "ACARS",
+        "type": "bool",
+        "value": "INITIALISED"
+      },
+      {
+        "title": "PARKING BRAKE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "INIT B",
+        "type": "bool",
+        "value": "LOADED"
+      },
+      {
+        "title": "FLEX TEMP",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "TAKEOFF SPEEDS",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "START CLEARANCE",
+        "type": "reminder",
+        "value": []
+      },
+      {
+        "title": "PAX SIGNS",
+        "type": "bool",
+        "value": "ON & AUTO"
+      },
+      {
+        "title": "BEACON",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "TRANSPONDER",
+        "type": "bool",
+        "value": "AUTO/XPNDR"
+      },
+      {
+        "title": "ALL DOORS",
+        "type": "bool",
+        "value": "CLOSED"
+      }
+    ]
+  },
+  {
+    "title": "AFTER START",
+    "items": [
+      {
+        "title": "GROUND EQUIPMENT",
+        "type": "bool",
+        "value": "REMOVED"
+      },
+      {
+        "title": "ANTI ICE",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "T/O"
+      },
+      {
+        "title": "APU",
+        "type": "bool",
+        "value": "AS REQ."
+      },
+      {
+        "title": "YELLOW ELECTRIC PUMP",
+        "type": "bool",
+        "value": "AS REQ."
+      },
+      {
+        "title": "TRIMS",
+        "type": "bool",
+        "value": "SET & ZERO"
+      },
+      {
+        "title": "CABIN DOORS",
+        "type": "bool",
+        "value": "ARMED"
+      },
+      {
+        "title": "ECAM STATUS",
+        "type": "bool",
+        "value": "CHECKED"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE TAKEOFF",
+    "items": [
+      {
+        "title": "FLIGHT CONTROLS",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "TCAS",
+        "type": "bool",
+        "value": "TA/RA"
+      },
+      {
+        "title": "DEPARTURE BRIEF",
+        "type": "bool",
+        "value": "COMPLETED"
+      },
+      {
+        "title": "TAKEOFF DATA & FMA",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "T/O"
+      },
+      {
+        "title": "ECAM MEMO",
+        "type": "bool",
+        "value": "T/O NO BLUE"
+      },
+      {
+        "title": "ENTERING RUNWAY",
+        "type": "reminder",
+        "value": []
+      },
+      {
+        "title": "TAKEOFF RWY",
+        "type": "bool",
+        "value": "CONFIRMED"
+      },
+      {
+        "title": "STROBES",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "PACKS",
+        "type": "bool",
+        "value": "AS REQ."
+      }
+    ]
+  },
+  {
+    "title": "AFTER TAKEOFF / CLIMB",
+    "items": [
+      {
+        "title": "LANDING GEAR",
+        "type": "bool",
+        "value": "UP"
+      },
+      {
+        "title": "ECAM",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "CLEARED TO FLIGHT LEVEL",
+        "type": "reminder",
+        "value": []
+      },
+      {
+        "title": "BARO REF",
+        "type": "bool",
+        "value": "STD"
+      }
+    ]
+  },
+  {
+    "title": "APPROACH",
+    "items": [
+      {
+        "title": "ECAM STATUS",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "APPROACH BRIEFING",
+        "type": "bool",
+        "value": "COMPLETED"
+      },
+      {
+        "title": "MINIMA",
+        "type": "bool",
+        "value": "AS REQ."
+      },
+      {
+        "title": "APPROACH PHASE",
+        "type": "bool",
+        "value": "ACTIVE"
+      },
+      {
+        "title": "CLEARED TO AN ALTITUDE",
+        "type": "reminder",
+        "value": []
+      },
+      {
+        "title": "BARO REF",
+        "type": "bool",
+        "value": "SET"
+      }
+    ]
+  },
+  {
+    "title": "LANDING",
+    "items": [
+      {
+        "title": "AUTO BRAKES",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "MISSED APP ALT",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "ECAM MEMO",
+        "type": "bool",
+        "value": "LDG NO BLUE"
+      }
+    ]
+  },
+  {
+    "title": "AFTER LANDING",
+    "items": [
+      {
+        "title": "EXTERIOR LIGHTS",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "ZERO"
+      },
+      {
+        "title": "SPOILERS",
+        "type": "bool",
+        "value": "DISARMED & RETRACTED"
+      },
+      {
+        "title": "APU",
+        "type": "bool",
+        "value": "START/OFF"
+      },
+      {
+        "title": "WEATHER RADAR",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "TCAS",
+        "type": "bool",
+        "value": "STANDBY"
+      },
+      {
+        "title": "IF ENG2 SHUTDOWN",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "YELLOW ELEC PUMP",
+            "value": "OFF",
+            "img": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PARKING",
+    "items": [
+      {
+        "title": "YELLOW ELEC PUMP",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "ENGINES",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "CABIN DOORS",
+        "type": "bool",
+        "value": "DISARMED"
+      },
+      {
+        "title": "BEACON",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "SEATBELT SIGNS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "TRANSPONDER",
+        "type": "bool",
+        "value": "1200/2000 & STBY"
+      }
+    ]
+  }
+]
