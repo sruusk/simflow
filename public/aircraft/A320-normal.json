@@ -60,7 +60,7 @@
       {
         "title": "ANTI ICE",
         "type": "bool",
-        "value": "AS REQUIRED"
+        "value": "AS REQ."
       },
       {
         "title": "APU",
