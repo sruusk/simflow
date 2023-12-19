@@ -23,9 +23,9 @@
         "value": "NAV"
       },
       {
-        "title": "BARO",
+        "title": "BARO REF",
         "type": "bool",
-        "value": "SET QNH/INHG"
+        "value": "SET"
       }
     ]
   },
@@ -220,7 +220,7 @@
       {
         "title": "RADAR & PWS",
         "type": "bool",
-        "value": "ON & AUTO"
+        "value": "OFF"
       },
       {
         "title": "TCAS",
