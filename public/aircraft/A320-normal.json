@@ -123,26 +123,6 @@
         "value": "TA/RA"
       },
       {
-        "title": "TAKEOFF DATA & FMA",
-        "type": "bool",
-        "value": "CHECKED"
-      },
-      {
-        "title": "ECAM MEMO",
-        "type": "bool",
-        "value": "T/O NO BLUE"
-      },
-      {
-        "title": "ENTERING RUNWAY",
-        "type": "reminder",
-        "value": []
-      },
-      {
-        "title": "TAKEOFF RWY",
-        "type": "bool",
-        "value": "CONFIRMED"
-      },
-      {
         "title": "STROBES",
         "type": "bool",
         "value": "ON"
@@ -151,6 +131,21 @@
         "title": "PACKS",
         "type": "bool",
         "value": "AS REQ."
+      },
+      {
+        "title": "TAKEOFF RWY",
+        "type": "bool",
+        "value": "CONFIRMED"
+      },
+      {
+        "title": "TAKEOFF DATA & FMA",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "ECAM MEMO",
+        "type": "bool",
+        "value": "T/O NO BLUE"
       }
     ]
   },
