@@ -44,6 +44,7 @@ h1 {
   font-size: 32px;
   line-height: 44px;
   position: relative;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .main {
