@@ -24,6 +24,18 @@
     "description": "Full checklist for normal operations of the Airbus A320. Includes flows and reminders for online procedures."
   },
   {
+    "manufacturer": "Airbus",
+    "type": "A320-normal",
+    "image": "img/airbus_a320.webp",
+    "tags": [
+      {
+        "text": "A320-200",
+        "color": "#00205b"
+      }
+    ],
+    "description": "Normal checklist of the Airbus A320."
+  },
+  {
     "manufacturer": "ATR",
     "type": "72-600",
     "image": "img/AT76.webp",

@@ -1,0 +1,257 @@
+[
+  {
+    "title": "COCKPIT PREPARATION",
+    "items": [
+      {
+        "title": "GEAR PINS & COVERS",
+        "type": "bool",
+        "value": "REMOVED"
+      },
+      {
+        "title": "FUEL QUANTITY",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "SEATBELT SIGNS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "ADIRS",
+        "type": "bool",
+        "value": "NAV"
+      },
+      {
+        "title": "BARO REF",
+        "type": "bool",
+        "value": "SET"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE START",
+    "items": [
+      {
+        "title": "PARKING BRAKE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "TAKEOFF SPEEDS & THRUST",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "WINDOWS & DOORS",
+        "type": "bool",
+        "value": "CLOSED"
+      },
+      {
+        "title": "BEACON",
+        "type": "bool",
+        "value": "ON"
+      }
+    ]
+  },
+  {
+    "title": "AFTER START",
+    "items": [
+      {
+        "title": "ANTI ICE",
+        "type": "bool",
+        "value": "AS REQ."
+      },
+      {
+        "title": "APU",
+        "type": "bool",
+        "value": "AS REQ."
+      },
+      {
+        "title": "TRIMS",
+        "type": "bool",
+        "value": "SET & ZERO"
+      },
+      {
+        "title": "ECAM STATUS",
+        "type": "bool",
+        "value": "CHECKED"
+      }
+    ]
+  },
+  {
+    "title": "TAXI",
+    "items": [
+      {
+        "title": "FLIGHT CONTROLS",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "T/O"
+      },
+      {
+        "title": "RADAR & PWS",
+        "type": "bool",
+        "value": "ON & AUTO"
+      },
+      {
+        "title": "ENG MODE SEL",
+        "type": "bool",
+        "value": "AS REQ."
+      },
+      {
+        "title": "ECAM STATUS",
+        "type": "bool",
+        "value": "CHECKED"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE TAKEOFF",
+    "items": [
+      {
+        "title": "DEPARTURE BRIEF",
+        "type": "bool",
+        "value": "COMPLETED"
+      },
+      {
+        "title": "TCAS",
+        "type": "bool",
+        "value": "TA/RA"
+      },
+      {
+        "title": "STROBES",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "PACKS",
+        "type": "bool",
+        "value": "AS REQ."
+      },
+      {
+        "title": "TAKEOFF RWY",
+        "type": "bool",
+        "value": "CONFIRMED"
+      },
+      {
+        "title": "TAKEOFF DATA & FMA",
+        "type": "bool",
+        "value": "CHECKED"
+      },
+      {
+        "title": "ECAM MEMO",
+        "type": "bool",
+        "value": "T/O NO BLUE"
+      }
+    ]
+  },
+  {
+    "title": "APPROACH",
+    "items": [
+      {
+        "title": "APPROACH BRIEFING",
+        "type": "bool",
+        "value": "COMPLETED"
+      },
+      {
+        "title": "BARO REF",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "SEATBELT SIGNS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "MINIMA",
+        "type": "bool",
+        "value": "AS REQ."
+      },
+      {
+        "title": "AUTO BRAKES",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "ENG MODE SEL",
+        "type": "bool",
+        "value": "AS REQ."
+      }
+    ]
+  },
+  {
+    "title": "LANDING",
+    "items": [
+      {
+        "title": "MISSED APP ALT",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "ECAM MEMO",
+        "type": "bool",
+        "value": "LDG NO BLUE"
+      }
+    ]
+  },
+  {
+    "title": "AFTER LANDING",
+    "items": [
+      {
+        "title": "EXTERIOR LIGHTS",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "SPOILERS",
+        "type": "bool",
+        "value": "DISARMED & RETRACTED"
+      },
+      {
+        "title": "APU",
+        "type": "bool",
+        "value": "START/OFF"
+      },
+      {
+        "title": "RADAR & PWS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "TCAS",
+        "type": "bool",
+        "value": "STANDBY"
+      }
+    ]
+  },
+  {
+    "title": "PARKING",
+    "items": [
+      {
+        "title": "ENGINES",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "BEACON",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "SEATBELT SIGNS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "FUEL PUMPS",
+        "type": "bool",
+        "value": "OFF"
+      }
+    ]
+  }
+]
