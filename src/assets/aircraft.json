@@ -64,6 +64,18 @@
     "description": "Full checklist for normal operations of the Boeing 737. Includes flows and reminders for online procedures."
   },
   {
+    "manufacturer": "Boeing",
+    "type": "Zibo 737",
+    "image": "img/boeing_737.webp",
+    "tags": [
+      {
+        "text": "737-700",
+        "color": "#0039a6"
+      }
+    ],
+    "description": "Full checklist for normal operations of the Zibo Boeing 737. Includes flows and reminders for online procedures."
+  },
+  {
     "manufacturer": "Bombardier",
     "type": "CRJ-700",
     "image": "img/bombardier_crj.webp",

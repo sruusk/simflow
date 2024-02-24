@@ -1,0 +1,1009 @@
+[
+  {
+    "title": "PRE-FLIGHT",
+    "items": [
+      {
+        "title": "PARKING BRAKE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "BATTERY",
+        "type": "bool",
+        "value": "GUARD CLOSED"
+      },
+      {
+        "title": "STANDBY POWER",
+        "type": "bool",
+        "value": "GUARD CLOSED"
+      },
+      {
+        "title": "EMERGENCY EXIT LIGHTS",
+        "type": "bool",
+        "value": "GUARD CLOSED"
+      },
+      {
+        "title": "GROUND POWER",
+        "type": "bool",
+        "value": "CONNECT & ON"
+      },
+      {
+        "title": "POSITION LIGHTS",
+        "type": "bool",
+        "value": "STEADY"
+      },
+      {
+        "title": "IRS MODE SELECTOR",
+        "type": "bool",
+        "value": "NAV"
+      },
+      {
+        "title": "TESTS",
+        "type": "bool",
+        "value": "COMPLETED"
+      },
+      {
+        "title": "PAX SIGNS",
+        "type": "bool",
+        "value": "ON / AUTO"
+      },
+      {
+        "title": "ELEC. HYDRAULIC PUMPS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "WINDOW HEAT",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "LEFT AFT FUEL PUMP",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "APU",
+        "type": "bool",
+        "value": "START"
+      },
+      {
+        "title": "APU GEN",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "APU BLEED",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "PACKS",
+        "type": "bool",
+        "value": "AUTO"
+      },
+      {
+        "title": "ISOLATION VALVE",
+        "type": "bool",
+        "value": "OPEN"
+      },
+      {
+        "title": "CHECK",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "OBTAIN IFR CLEARANCE",
+            "value": "",
+            "img": "img/symbols/airport.webp"
+          },
+          {
+            "title": "SET FMC",
+            "value": "",
+            "img": "img/symbols/flight_plan.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PRE-FLIGHT",
+    "items": [
+      {
+        "title": "ALTIMETER / SQUAWK",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "TRANSPONDER",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "FUEL / LOAD / BOARDING",
+        "type": "bool",
+        "value": "COMPLETED"
+      },
+      {
+        "title": "TAKE OFF DATA",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "FLT. ALTITUDE PRESSURE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "MCP",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "COM. RADIO",
+        "type": "bool",
+        "value": "FREQUENCIES SET"
+      },
+      {
+        "title": "CHECK",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "TAXI ROUTE BRIEFED AND READY",
+            "value": "",
+            "img": "img/symbols/runway.webp"
+          },
+          {
+            "title": "DOORS CLOSED",
+            "value": "",
+            "img": "img/symbols/doors.webp"
+          },
+          {
+            "title": "GROUND EQUIPMENT CLEAR",
+            "value": "",
+            "img": "img/symbols/stairs.webp"
+          },
+          {
+            "title": "REQUEST PUSHBACK CLEARANCE",
+            "value": "",
+            "img": "img/symbols/pushback.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "BEFORE START",
+    "items": [
+      {
+        "title": "FLIGHT DIRECTORS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "AUTOBRAKE",
+        "type": "bool",
+        "value": "RTO"
+      },
+      {
+        "title": "YAW DAMPER",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "FUEL PUMPS",
+        "type": "bool",
+        "value": "ON / AS REQUIRED"
+      },
+      {
+        "title": "THRUST LEVERS",
+        "type": "bool",
+        "value": "CLOSED"
+      },
+      {
+        "title": "ENGINE FUEL LEVERS",
+        "type": "bool",
+        "value": "CUT OFF"
+      },
+      {
+        "title": "ANTI-COLLISION LIGHT",
+        "type": "bool",
+        "value": "ON"
+      }
+    ]
+  },
+  {
+    "title": "ENGINE START",
+    "items": [
+      {
+        "title": "PACKS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "ENGINE 2 START:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "ENGINE 2 START SWITCH",
+            "value": "GND",
+            "img": "img/symbols/loading.webp"
+          },
+          {
+            "title": "AT 25% N2 - ENG 2 FUEL LEVER",
+            "value": "RUN",
+            "img": "img/symbols/lever.webp"
+          }
+        ]
+      },
+      {
+        "title": "ENGINE 2 STATUS",
+        "type": "bool",
+        "value": "STABLE"
+      },
+      {
+        "title": "ENGINE 1 START:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "ENGINE 1 START SWITCH",
+            "value": "GND",
+            "img": "img/symbols/loading.webp"
+          },
+          {
+            "title": "AT 25% N2 - ENG 1 FUEL LEVER",
+            "value": "GND",
+            "img": "img/symbols/lever.webp"
+          }
+        ]
+      },
+      {
+        "title": "ENGINE 1 STATUS",
+        "type": "bool",
+        "value": "STABLE"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE TAXI",
+    "items": [
+      {
+        "title": "ENGINE GENERATORS 1 & 2",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "PROBE HEAT",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "ANTI-ICE",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "ENGINE 1 & 2 BLEEDS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "PACKS",
+        "type": "bool",
+        "value": "AUTO"
+      },
+      {
+        "title": "ISOLATION VALVE",
+        "type": "bool",
+        "value": "AUTO"
+      },
+      {
+        "title": "APU BLEED",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "APU",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "ENGINE START SWITCHES",
+        "type": "bool",
+        "value": "CONT"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "ELEVATOR TRIM",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "FLIGHT CONTROLS",
+        "type": "bool",
+        "value": "FULL & FREE"
+      },
+      {
+        "title": "AUTOTHROTTLE",
+        "type": "bool",
+        "value": "ARM"
+      },
+      {
+        "title": "RECALL",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "LOWER DISPLAY UNIT",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "TRANSPONDER",
+        "type": "bool",
+        "value": "ALT OFF"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "REQUEST TAXI CLEARANCE",
+            "value": "",
+            "img": "img/symbols/airport.webp"
+          },
+          {
+            "title": "PREPARE TOWER FREQUENCY",
+            "value": "",
+            "img": "img/symbols/control_tower.webp"
+          }
+        ]
+      },
+      {
+        "title": "TOWER FREQUENCY STANDBY",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "TAXI LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "RWY TURN-OFF LIGHTS",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE TAKE-OFF",
+    "items": [
+      {
+        "title": "BRAKES/GYROS/TURN CDNR",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "FUEL FLOW",
+        "type": "bool",
+        "value": "RESET THEN RATE"
+      },
+      {
+        "title": "CABIN LIGHTS",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "FLIGHT INTSTRUMENTS",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "ENGINE INSTRUMENTS",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "TAKE-OFF DATA",
+        "type": "bool",
+        "value": "(V1, VR, V2) CHECK"
+      },
+      {
+        "title": "NAV EQUIPMENT",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "CABIN LIGHTS",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "AT THE HOLD:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "REQUEST TAKE-OFF CLEARANCE",
+            "value": "",
+            "img": "img/symbols/airport.webp"
+          },
+          {
+            "title": "PREPARE DEPARTURE FREQUENCY",
+            "value": "",
+            "img": "img/symbols/control_tower.webp"
+          }
+        ]
+      },
+      {
+        "title": "DEPARTURE FREQUENCY STANDBY",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "POSITION LIGHTS",
+        "type": "bool",
+        "value": "STROBE & STEADY SET"
+      },
+      {
+        "title": "LANDING LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "TAXI LIGHTS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "TRANSPONDER",
+        "type": "bool",
+        "value": "TA/RA SET"
+      },
+      {
+        "title": "TFC",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "CLOCK",
+        "type": "bool",
+        "value": "START"
+      }
+    ]
+  },
+  {
+    "title": "AFTER TAKE-OFF",
+    "items": [
+      {
+        "title": "LANDING GEAR",
+        "type": "bool",
+        "value": "UP"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "RETRACTED"
+      },
+      {
+        "title": "AUTO-BRAKE",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "ENGINE START SWITCHES",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "GEAR LEVER",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "RWY TURN-OFF LIGHTS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "CABIN LIGHTS",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "PREPARE CENTER FREQUENCY",
+            "value": "",
+            "img": "img/symbols/control_tower.webp"
+          }
+        ]
+      },
+      {
+        "title": "CENTER FREQUENCY STANDBY",
+        "type": "bool",
+        "value": "SET"
+      }
+    ]
+  },
+  {
+    "title": "CLIMB",
+    "items": [
+      {
+        "title": "PASSING TRANSITION ALTITUDE:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "SET ALTIMETER TO STD - 29.92 / 1013",
+            "value": "",
+            "img": "img/symbols/barometer.webp"
+          }
+        ]
+      },
+      {
+        "title": "ALTIMETER",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "PASSING 10,000ft:",
+        "type": "reminder",
+        "value": []
+      },
+      {
+        "title": "LANDING LIGHTS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "CABIN PRESSURE",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "PAX SIGNS",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      }
+    ]
+  },
+  {
+    "title": "BEFORE DESCENT",
+    "items": [
+      {
+        "title": "ATIS",
+        "type": "bool",
+        "value": "OBTAINED"
+      },
+      {
+        "title": "ARRIVAL DATA",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "LANDING ALTITUDE",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "RADIOS",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "LOCALIZER FREQ",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "LOCALIZER COURSE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "RESET MCP ALTITUDE",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "RADIO ALT / BARO MIN",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "APPROACH & MISSED APPROACH",
+        "type": "bool",
+        "value": "BRIEFED"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "ARRIVAL TAXI ROUTE BRIEFED AND READY",
+            "value": "",
+            "img": "img/symbols/runway.webp"
+          }
+        ]
+      },
+      {
+        "title": "TAXI ROUTE",
+        "type": "bool",
+        "value": "BRIEFED"
+      }
+    ]
+  },
+  {
+    "title": "DESCENT",
+    "items": [
+      {
+        "title": "ANTI-ICE",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "ARRIVAL ALTIMETER",
+        "type": "bool",
+        "value": "PREPARED"
+      },
+      {
+        "title": "AUTOBRAKE",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "RECALL",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "PASSING TRANSITION ALTITUDE:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "SET LOCAL QNH/QFE",
+            "value": "",
+            "img": "img/symbols/barometer.webp"
+          }
+        ]
+      },
+      {
+        "title": "ALTIMETER",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "PASSING 10,000ft:",
+        "type": "reminder",
+        "value": []
+      },
+      {
+        "title": "LANDING LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "CABIN PRESSURE",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "PAX SIGNS",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "PREPARE ARRIVAL FREQUENCY",
+            "value": "",
+            "img": "img/symbols/control_tower.webp"
+          }
+        ]
+      },
+      {
+        "title": "ARRIVAL FREQUENCY STANDBY",
+        "type": "bool",
+        "value": "SET"
+      }
+    ]
+  },
+  {
+    "title": "APPROACH",
+    "items": [
+      {
+        "title": "ALTIMETER",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "LOCALIZER FREQ",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "LOCALIZER COURSE",
+        "type": "bool",
+        "value": "CHECK"
+      },
+      {
+        "title": "ENGINE START SWITCHES",
+        "type": "bool",
+        "value": "CONT"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "PREPARE TOWER FREQUENCY",
+            "value": "",
+            "img": "img/symbols/control_tower.webp"
+          }
+        ]
+      },
+      {
+        "title": "TOWER FREQUENCY STANDBY",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "SPEED BRAKE ",
+        "type": "bool",
+        "value": "ARM"
+      },
+      {
+        "title": "APP",
+        "type": "bool",
+        "value": "ARM"
+      }
+    ]
+  },
+  {
+    "title": "LANDING",
+    "items": [
+      {
+        "title": "GO-AROUND ALTITUDE",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "SPEED BRAKE ",
+        "type": "bool",
+        "value": "ARM"
+      },
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "SET FOR LANDING"
+      },
+      {
+        "title": "LANDING GEAR",
+        "type": "bool",
+        "value": "DOWN - 3 GREEN"
+      },
+      {
+        "title": "AUTOPILOT",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "AUTOTHROTTLE",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "LANDING CLEARANCE RECIEVED",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "TAXI LIGHTS ON",
+            "value": "",
+            "img": "img/symbols/light.webp"
+          }
+        ]
+      },
+      {
+        "title": "TAXI LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "CHECK:",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "PREPARE GROUND FREQUENCY",
+            "value": "",
+            "img": "img/symbols/control_tower.webp"
+          }
+        ]
+      },
+      {
+        "title": "GROUND FREQUENCY STANDBY",
+        "type": "bool",
+        "value": "SET"
+      }
+    ]
+  },
+  {
+    "title": "AFTER LANDING",
+    "items": [
+      {
+        "title": "FLAPS",
+        "type": "bool",
+        "value": "RETRACT"
+      },
+      {
+        "title": "SPEED BRAKE",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "LANDING LIGHTS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "POSITION LIGHTS",
+        "type": "bool",
+        "value": "STEADY"
+      },
+      {
+        "title": "TAXI LIGHTS",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "ANTI-ICE",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "APU",
+        "type": "bool",
+        "value": "START"
+      },
+      {
+        "title": "PROBE HEAT",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "ENGINE START SWITCHES",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "AUTO-BRAKE",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "CHECK",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "OBTAIN TAXI ROUTE TO GATE",
+            "value": "",
+            "img": "img/symbols/airport.webp"
+          }
+        ]
+      },
+      {
+        "title": "APU GEN",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "TURNING INTO GATE",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "TAXI LIGHTS",
+            "value": "OFF",
+            "img": "img/symbols/light.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SHUTDOWN",
+    "items": [
+      {
+        "title": "TRANSPONDER",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "PARKING BRAKES",
+        "type": "bool",
+        "value": "SET"
+      },
+      {
+        "title": "ENGINE FUEL LEVERS",
+        "type": "bool",
+        "value": "CUT OFF"
+      },
+      {
+        "title": "PAX SIGNS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "APU BLEED",
+        "type": "bool",
+        "value": "ON"
+      },
+      {
+        "title": "ANTI COLLISION LIGHT",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "FUEL PUMPS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "ANTI-ICE",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "ELEC. HYDRAULIC PUMPS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "ISOLATION VALVE",
+        "type": "bool",
+        "value": "OPEN"
+      },
+      {
+        "title": "FLIGHT DIRECTORS",
+        "type": "bool",
+        "value": "OFF"
+      },
+      {
+        "title": "GROUND POWER",
+        "type": "bool",
+        "value": "CONNECT & ON"
+      },
+      {
+        "title": "EXTERIOR LIGHTS",
+        "type": "bool",
+        "value": "AS REQUIRED"
+      },
+      {
+        "title": "DEBOARDING",
+        "type": "reminder",
+        "value": [
+          {
+            "title": "REQUEST JETWAY/STAIRS",
+            "value": "",
+            "img": "img/symbols/jetway.webp"
+          },
+          {
+            "title": "OPEN DOORS",
+            "value": "",
+            "img": "img/symbols/doors.webp"
+          }
+        ]
+      },
+      {
+        "title": "DEBOARDING",
+        "type": "bool",
+        "value": "STARTED"
+      }
+    ]
+  }
+]
